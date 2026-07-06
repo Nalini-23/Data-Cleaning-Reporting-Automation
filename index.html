@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Cleaning Report</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F7F6F2; --panel:#FFFFFF; --ink:#1C232E; --ink-soft:#5A6270; --line:#E4E1D8;
+    --teal:#1F7A6C; --teal-soft:#E4F1EE; --amber:#C1652B; --amber-soft:#FBEBE1;
+    --plum:#5B4B8A; --plum-soft:#EEEAF7; --grid:#EFEDE6;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:'Inter',sans-serif;}
+  h1,h2,h3{font-family:'Space Grotesk',sans-serif;margin:0;}
+  .mono{font-family:'JetBrains Mono',monospace;}
+
+  header{max-width:1300px;margin:0 auto;padding:28px clamp(20px,4vw,48px) 0;}
+  .eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);margin-bottom:6px;}
+  header h1{font-size:clamp(26px,3vw,34px);font-weight:700;letter-spacing:-0.02em;}
+  header p{color:var(--ink-soft);margin:6px 0 0;font-size:14px;max-width:640px;}
+
+  .wrap{max-width:1300px;margin:0 auto;padding:22px clamp(20px,4vw,48px) 60px;}
+
+  .kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:20px;}
+  @media(max-width:900px){.kpi-grid{grid-template-columns:repeat(2,1fr);}}
+  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px;position:relative;overflow:hidden;}
+  .kpi::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;background:var(--accent,var(--teal));}
+  .kpi .label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-soft);font-weight:600;}
+  .kpi .row{display:flex;align-items:baseline;gap:8px;margin-top:6px;}
+  .kpi .before{font-family:'JetBrains Mono',monospace;font-size:14px;color:var(--ink-soft);text-decoration:line-through;}
+  .kpi .after{font-family:'Space Grotesk',sans-serif;font-size:24px;font-weight:700;}
+  .kpi .note{font-size:12px;color:var(--ink-soft);margin-top:4px;}
+
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin-bottom:14px;}
+  .panel h3{font-size:14px;font-weight:600;}
+  .panel .sub{font-size:12px;color:var(--ink-soft);margin-top:2px;margin-bottom:12px;}
+  .panel canvas{max-height:280px;}
+
+  .chart-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+  @media(max-width:960px){.chart-grid{grid-template-columns:1fr;}}
+
+  .note-box{background:var(--amber-soft);border:1px solid #EBC9AE;border-radius:10px;padding:12px 16px;font-size:13px;color:#7A3E1B;margin-bottom:14px;}
+  .note-box b{color:#5C2E12;}
+
+  .log-list{list-style:none;margin:0;padding:0;counter-reset:step;}
+  .log-list li{
+    counter-increment:step;position:relative;padding:9px 0 9px 34px;
+    border-bottom:1px solid var(--grid);font-size:13px;
+  }
+  .log-list li:last-child{border-bottom:none;}
+  .log-list li::before{
+    content:counter(step);position:absolute;left:0;top:8px;
+    width:22px;height:22px;border-radius:50%;background:var(--teal-soft);color:var(--teal);
+    font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;
+    display:flex;align-items:center;justify-content:center;
+  }
+
+  table{width:100%;border-collapse:collapse;font-size:12.5px;}
+  thead th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-soft);padding:8px 10px;border-bottom:1px solid var(--line);}
+  tbody td{padding:8px 10px;border-bottom:1px solid var(--grid);font-family:'JetBrains Mono',monospace;font-size:12px;}
+  .table-wrap{max-height:280px;overflow:auto;border-radius:8px;}
+  .tag{padding:2px 7px;border-radius:20px;font-size:10.5px;font-weight:600;}
+  .tag.raw{background:var(--amber-soft);color:var(--amber);}
+  .tag.clean{background:var(--teal-soft);color:var(--teal);}
+
+  footer{text-align:center;padding:20px;color:var(--ink-soft);font-size:12px;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Data Quality</div>
+  <h1>Data Cleaning &amp; Reporting Automation</h1>
+  <p>An automated pipeline standardized columns, fixed inconsistent text and dates, converted dirty numeric strings, handled missing values, removed duplicates, and flagged outliers &mdash; every step logged below.</p>
+</header>
+
+<div class="wrap">
+
+  <div class="kpi-grid" id="kpiGrid"></div>
+
+  <div id="noteArea"></div>
+
+  <div class="chart-grid">
+    <div class="panel">
+      <h3>Missing Values by Column</h3>
+      <div class="sub">Before vs after the cleaning pipeline</div>
+      <canvas id="missingChart"></canvas>
+    </div>
+    <div class="panel">
+      <h3>Rows Removed</h3>
+      <div class="sub">Breakdown of what was removed and why</div>
+      <canvas id="removedChart"></canvas>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h3>Cleaning Log</h3>
+    <div class="sub">Every automated action taken, in order</div>
+    <ul class="log-list" id="logList"></ul>
+  </div>
+
+  <div class="chart-grid">
+    <div class="panel">
+      <h3>Raw Sample</h3>
+      <div class="sub">First rows of the original messy dataset</div>
+      <div class="table-wrap" id="rawTableWrap"></div>
+    </div>
+    <div class="panel">
+      <h3>Cleaned Sample</h3>
+      <div class="sub">Same rows after the pipeline ran</div>
+      <div class="table-wrap" id="cleanTableWrap"></div>
+    </div>
+  </div>
+
+</div>
+
+<footer>Data Cleaning &amp; Reporting Automation &mdash; pandas pipeline, rendered client-side.</footer>
+
+<script>
+const REPORT = {"before": {"rows": 525, "missing_by_column": {"Customer Name": 0, "  city": 0, "Order Date": 0, "category ": 0, "PRICE": 0, "quantity": 9}, "duplicate_rows": 24}, "after": {"rows": 501, "missing_by_column": {"customer_name": 0, "city": 0, "order_date": 0, "category": 0, "price": 0, "quantity": 0, "price_outlier": 0}, "duplicate_rows": 0, "outliers_flagged": 12}, "actions": ["Standardized column names: ['Customer Name', '  city', 'Order Date', 'category ', 'PRICE', 'quantity'] -> ['customer_name', 'city', 'order_date', 'category', 'price', 'quantity']", "Standardized text in 'city': 19 distinct values -> 5", "Standardized text in 'category': 5 distinct values -> 5", "Standardized text in 'customer_name': 10 distinct values -> 10", "Parsed 'order_date' into a single format; 0 unparseable values became NaT", "Converted 'price' from mixed text/currency formatting into numeric values", "Corrected 23 negative quantity values (sign entry errors) to positive", "Missing values in 'price': imputed with median (1538.70), 9.5% were missing", "Missing values in 'quantity': imputed with median (5.00), 1.7% were missing", "Removed 24 exact duplicate rows", "Removed 0 near-duplicate rows (same ['customer_name', 'order_date', 'price', 'quantity'])", "Flagged 12 price outliers using IQR method (bounds: 294 to 2752); kept but marked, not deleted"], "column_mapping": {"Customer Name": "customer_name", "  city": "city", "Order Date": "order_date", "category ": "category", "PRICE": "price", "quantity": "quantity"}, "rows_removed_total": 24, "missing_before_total": 9, "missing_after_total": 0, "notes": ["Raw 'price' showed 0 missing via a plain .isna() check, but that only catches true nulls. Values like 'N/A' and blank strings are sentinel placeholders that look non-null until parsed. After converting price to numeric, 9.5% of rows were actually missing. This is a common way real datasets hide missingness."]};
+const RAW_SAMPLE = [{"Customer Name": "Karthik Menon", "  city": "HYDERABAD ", "Order Date": "01/02/2025", "category ": "Electronics", "PRICE": "\u20b91,400.25", "quantity": 7.0}, {"Customer Name": "Sneha Iyer", "  city": "hyderabad", "Order Date": "07/29/2025", "category ": "Apparel", "PRICE": "1032.03", "quantity": 2.0}, {"Customer Name": "Vikram Rao", "  city": "bengaluru", "Order Date": "04/01/2025", "category ": "Electronics", "PRICE": NaN, "quantity": 3.0}, {"Customer Name": "Divya Pillai", "  city": "chennai", "Order Date": "26/06/2025", "category ": "Sports", "PRICE": "1430.08", "quantity": 8.0}, {"Customer Name": "Arjun Reddy", "  city": "New Delhi", "Order Date": "26/07/2025", "category ": "Sports", "PRICE": "448.99", "quantity": 7.0}, {"Customer Name": "Priya Nair", "  city": "bengaluru", "Order Date": "2025-12-11", "category ": "Sports", "PRICE": "1402.86", "quantity": NaN}, {"Customer Name": "Divya Pillai", "  city": "Mumbai ", "Order Date": "14-Apr-2025", "category ": "Books", "PRICE": "1915.84", "quantity": 1.0}, {"Customer Name": "Arjun Reddy", "  city": "bengaluru", "Order Date": "07/01/2025", "category ": "Books", "PRICE": "2018.31", "quantity": 7.0}];
+const CLEAN_SAMPLE = [{"customer_name": "Karthik Menon", "city": "Hyderabad", "order_date": "2025-02-01", "category": "Electronics", "price": 1400.25, "quantity": 7.0, "price_outlier": false}, {"customer_name": "Sneha Iyer", "city": "Hyderabad", "order_date": "2025-07-29", "category": "Apparel", "price": 1032.03, "quantity": 2.0, "price_outlier": false}, {"customer_name": "Vikram Rao", "city": "Bengaluru", "order_date": "2025-01-04", "category": "Electronics", "price": 1538.7, "quantity": 3.0, "price_outlier": false}, {"customer_name": "Divya Pillai", "city": "Chennai", "order_date": "2025-06-26", "category": "Sports", "price": 1430.08, "quantity": 8.0, "price_outlier": false}, {"customer_name": "Arjun Reddy", "city": "Delhi", "order_date": "2025-07-26", "category": "Sports", "price": 448.99, "quantity": 7.0, "price_outlier": false}, {"customer_name": "Priya Nair", "city": "Bengaluru", "order_date": "2025-11-12", "category": "Sports", "price": 1402.86, "quantity": 5.0, "price_outlier": false}, {"customer_name": "Divya Pillai", "city": "Mumbai", "order_date": "2025-04-14", "category": "Books", "price": 1915.84, "quantity": 1.0, "price_outlier": false}, {"customer_name": "Arjun Reddy", "city": "Bengaluru", "order_date": "2025-01-07", "category": "Books", "price": 2018.31, "quantity": 7.0, "price_outlier": false}];
+
+function buildKPIs(){
+  const grid = document.getElementById('kpiGrid');
+  grid.innerHTML = `
+    <div class="kpi" style="--accent:#1F7A6C">
+      <div class="label">Rows</div>
+      <div class="row"><span class="before">${REPORT.before.rows}</span><span class="after">${REPORT.after.rows}</span></div>
+      <div class="note">${REPORT.rows_removed_total} rows removed (duplicates)</div>
+    </div>
+    <div class="kpi" style="--accent:#C1652B">
+      <div class="label">Missing Values</div>
+      <div class="row"><span class="before">${REPORT.missing_before_total}</span><span class="after">${REPORT.missing_after_total}</span></div>
+      <div class="note">All resolved via imputation or row drop</div>
+    </div>
+    <div class="kpi" style="--accent:#5B4B8A">
+      <div class="label">Duplicate Rows</div>
+      <div class="row"><span class="before">${REPORT.before.duplicate_rows}</span><span class="after">${REPORT.after.duplicate_rows}</span></div>
+      <div class="note">Exact + near-duplicates removed</div>
+    </div>
+    <div class="kpi" style="--accent:#C1652B">
+      <div class="label">Outliers Flagged</div>
+      <div class="row"><span class="after">${REPORT.after.outliers_flagged}</span></div>
+      <div class="note">Kept, marked via IQR method (not deleted)</div>
+    </div>`;
+}
+
+function buildNotes(){
+  const area = document.getElementById('noteArea');
+  if(!REPORT.notes || !REPORT.notes.length) return;
+  area.innerHTML = REPORT.notes.map(n => `<div class="note-box"><b>Worth knowing:</b> ${n}</div>`).join('');
+}
+
+function buildMissingChart(){
+  const beforeCols = Object.keys(REPORT.before.missing_by_column);
+  const mapping = REPORT.column_mapping;
+  const afterCols = beforeCols.map(c => mapping[c] || c.trim().toLowerCase());
+  const beforeVals = beforeCols.map(c => REPORT.before.missing_by_column[c]);
+  const afterVals = afterCols.map(c => REPORT.after.missing_by_column[c] ?? 0);
+
+  new Chart(document.getElementById('missingChart'), {
+    type:'bar',
+    data:{ labels: afterCols, datasets:[
+      { label:'Before', data: beforeVals, backgroundColor:'#C1652B99', borderRadius:4 },
+      { label:'After', data: afterVals, backgroundColor:'#1F7A6C99', borderRadius:4 }
+    ]},
+    options:{ responsive:true, maintainAspectRatio:false,
+      plugins:{ legend:{ position:'bottom', labels:{boxWidth:10,font:{size:11}} } },
+      scales:{ x:{grid:{display:false}}, y:{grid:{color:'#EFEDE6'}, title:{display:true,text:'Missing count'}} } }
+  });
+}
+
+function buildRemovedChart(){
+  const dupRemoved = REPORT.before.duplicate_rows;
+  const rowsFromDates = Math.max(0, REPORT.rows_removed_total - dupRemoved);
+  new Chart(document.getElementById('removedChart'), {
+    type:'doughnut',
+    data:{ labels:['Duplicate rows', 'Other (dates/near-dupes)'], datasets:[{
+      data:[dupRemoved, Math.max(rowsFromDates,0)],
+      backgroundColor:['#C1652B','#5B4B8A'], borderWidth:2, borderColor:'#fff'
+    }]},
+    options:{ responsive:true, maintainAspectRatio:false, plugins:{legend:{position:'bottom'}} }
+  });
+}
+
+function buildLog(){
+  document.getElementById('logList').innerHTML = REPORT.actions.map(a=>`<li>${a}</li>`).join('');
+}
+
+function buildTable(containerId, rows){
+  if(!rows.length){ document.getElementById(containerId).innerHTML = '<p style="color:var(--ink-soft);font-size:13px;">No sample rows available.</p>'; return; }
+  const cols = Object.keys(rows[0]);
+  let html = '<table><thead><tr>' + cols.map(c=>`<th>${c}</th>`).join('') + '</tr></thead><tbody>';
+  rows.forEach(r=>{
+    html += '<tr>' + cols.map(c=>`<td>${r[c] === null || r[c] === undefined ? '' : r[c]}</td>`).join('') + '</tr>';
+  });
+  html += '</tbody></table>';
+  document.getElementById(containerId).innerHTML = html;
+}
+
+buildKPIs();
+buildNotes();
+buildMissingChart();
+buildRemovedChart();
+buildLog();
+buildTable('rawTableWrap', RAW_SAMPLE);
+buildTable('cleanTableWrap', CLEAN_SAMPLE);
+</script>
+</body>
+</html>

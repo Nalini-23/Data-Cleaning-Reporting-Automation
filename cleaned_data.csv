@@ -1,0 +1,502 @@
+customer_name,city,order_date,category,price,quantity,price_outlier
+Karthik Menon,Hyderabad,2025-02-01,Electronics,1400.25,7.0,False
+Sneha Iyer,Hyderabad,2025-07-29,Apparel,1032.03,2.0,False
+Vikram Rao,Bengaluru,2025-01-04,Electronics,1538.7,3.0,False
+Divya Pillai,Chennai,2025-06-26,Sports,1430.08,8.0,False
+Arjun Reddy,Delhi,2025-07-26,Sports,448.99,7.0,False
+Priya Nair,Bengaluru,2025-11-12,Sports,1402.86,5.0,False
+Divya Pillai,Mumbai,2025-04-14,Books,1915.84,1.0,False
+Arjun Reddy,Bengaluru,2025-01-07,Books,2018.31,7.0,False
+Divya Pillai,Hyderabad,2025-06-30,Books,1094.14,5.0,False
+Sneha Iyer,Delhi,2025-12-10,Apparel,1538.7,4.0,False
+Priya Nair,Bengaluru,2025-05-15,Books,1538.7,8.0,False
+Sneha Iyer,Chennai,2025-10-31,Apparel,2524.57,8.0,False
+Ananya Das,Bengaluru,2025-10-02,Apparel,1019.3,7.0,False
+Vikram Rao,Hyderabad,2025-05-19,Apparel,1584.49,5.0,False
+Rohan Gupta,Mumbai,2026-01-02,Electronics,853.59,8.0,False
+Meera Joshi,Bengaluru,2025-03-04,Home & Kitchen,2113.84,5.0,False
+Rohan Gupta,Delhi,2025-01-04,Home & Kitchen,2230.26,6.0,False
+Ananya Das,Chennai,2026-01-31,Apparel,1568.32,4.0,False
+Vikram Rao,Mumbai,2025-01-11,Sports,1896.83,9.0,False
+Divya Pillai,Delhi,2025-05-01,Electronics,714.88,5.0,False
+Karthik Menon,Hyderabad,2026-01-28,Home & Kitchen,82.94,5.0,True
+Aarav Shah,Bengaluru,2025-12-08,Apparel,961.56,1.0,False
+Sneha Iyer,Mumbai,2025-02-27,Apparel,1429.32,6.0,False
+Divya Pillai,Chennai,2025-08-27,Books,1557.59,2.0,False
+Arjun Reddy,Chennai,2025-11-04,Home & Kitchen,2228.08,3.0,False
+Arjun Reddy,Mumbai,2025-12-29,Sports,1538.7,6.0,False
+Sneha Iyer,Hyderabad,2025-08-19,Home & Kitchen,1452.57,7.0,False
+Priya Nair,Hyderabad,2025-04-28,Home & Kitchen,1833.05,2.0,False
+Aarav Shah,Mumbai,2025-05-14,Books,2231.42,1.0,False
+Rohan Gupta,Delhi,2025-11-23,Sports,1618.12,9.0,False
+Aarav Shah,Bengaluru,2025-10-24,Sports,1394.68,1.0,False
+Priya Nair,Delhi,2025-12-03,Home & Kitchen,1828.04,5.0,False
+Aarav Shah,Chennai,2025-06-28,Electronics,285.68,4.0,True
+Priya Nair,Hyderabad,2025-04-01,Books,2201.65,8.0,False
+Sneha Iyer,Mumbai,2025-07-12,Apparel,1284.77,2.0,False
+Priya Nair,Delhi,2025-05-04,Sports,582.79,1.0,False
+Divya Pillai,Delhi,2025-09-14,Apparel,89999.0,6.0,True
+Sneha Iyer,Hyderabad,2025-05-20,Sports,1880.46,5.0,False
+Priya Nair,Hyderabad,2025-10-21,Apparel,896.09,6.0,False
+Meera Joshi,Bengaluru,2026-01-15,Apparel,2283.27,6.0,False
+Priya Nair,Mumbai,2025-10-16,Books,1456.45,6.0,False
+Ananya Das,Hyderabad,2025-08-06,Electronics,1538.7,3.0,False
+Priya Nair,Mumbai,2025-09-18,Electronics,2331.06,1.0,False
+Meera Joshi,Bengaluru,2025-10-19,Electronics,676.16,9.0,False
+Karthik Menon,Delhi,2025-06-11,Books,2161.14,9.0,False
+Sneha Iyer,Hyderabad,2026-02-04,Books,2018.53,4.0,False
+Ananya Das,Bengaluru,2025-01-16,Books,1990.16,7.0,False
+Karthik Menon,Chennai,2025-12-06,Electronics,1597.59,3.0,False
+Meera Joshi,Delhi,2025-05-15,Electronics,2070.23,3.0,False
+Priya Nair,Bengaluru,2025-02-16,Sports,1580.45,4.0,False
+Divya Pillai,Bengaluru,2025-03-08,Home & Kitchen,1089.06,6.0,False
+Meera Joshi,Hyderabad,2025-11-09,Apparel,1862.97,7.0,False
+Arjun Reddy,Chennai,2025-03-06,Apparel,1668.04,9.0,False
+Priya Nair,Bengaluru,2025-12-12,Electronics,1552.22,1.0,False
+Karthik Menon,Mumbai,2025-07-04,Apparel,1266.9,4.0,False
+Arjun Reddy,Bengaluru,2025-01-25,Sports,1046.9,3.0,False
+Meera Joshi,Bengaluru,2025-12-13,Sports,1538.7,6.0,False
+Vikram Rao,Chennai,2025-07-02,Electronics,1032.9,5.0,False
+Sneha Iyer,Delhi,2025-12-13,Books,1705.19,6.0,False
+Ananya Das,Mumbai,2025-09-12,Sports,1538.7,1.0,False
+Divya Pillai,Hyderabad,2026-02-01,Books,1215.84,3.0,False
+Sneha Iyer,Hyderabad,2025-04-10,Apparel,2185.7,2.0,False
+Karthik Menon,Delhi,2025-12-28,Books,1900.18,5.0,False
+Priya Nair,Hyderabad,2025-12-24,Apparel,1179.78,9.0,False
+Vikram Rao,Bengaluru,2025-05-06,Electronics,1058.57,9.0,False
+Karthik Menon,Bengaluru,2025-01-15,Electronics,2042.24,5.0,False
+Karthik Menon,Bengaluru,2025-03-11,Electronics,1873.6,5.0,False
+Sneha Iyer,Chennai,2025-01-14,Electronics,834.01,8.0,False
+Sneha Iyer,Mumbai,2025-09-19,Apparel,1581.38,9.0,False
+Divya Pillai,Mumbai,2026-01-24,Apparel,268.14,4.0,True
+Karthik Menon,Mumbai,2025-02-07,Electronics,1014.93,6.0,False
+Arjun Reddy,Bengaluru,2025-11-03,Home & Kitchen,1998.72,9.0,False
+Priya Nair,Hyderabad,2025-01-23,Books,1639.74,4.0,False
+Meera Joshi,Bengaluru,2025-02-22,Home & Kitchen,1639.47,1.0,False
+Priya Nair,Hyderabad,2025-02-23,Electronics,1782.82,9.0,False
+Arjun Reddy,Hyderabad,2025-07-18,Books,1441.44,7.0,False
+Ananya Das,Bengaluru,2025-03-05,Books,2116.57,5.0,False
+Vikram Rao,Chennai,2025-11-21,Books,1595.39,7.0,False
+Sneha Iyer,Hyderabad,2025-08-17,Electronics,1653.78,2.0,False
+Divya Pillai,Mumbai,2025-11-18,Apparel,986.34,2.0,False
+Vikram Rao,Delhi,2025-12-18,Books,1037.09,6.0,False
+Meera Joshi,Bengaluru,2025-08-24,Home & Kitchen,1538.7,1.0,False
+Aarav Shah,Bengaluru,2025-11-16,Apparel,1538.7,8.0,False
+Karthik Menon,Hyderabad,2025-09-03,Sports,610.94,1.0,False
+Vikram Rao,Bengaluru,2025-03-01,Apparel,1560.68,5.0,False
+Karthik Menon,Chennai,2025-09-04,Books,1574.96,7.0,False
+Aarav Shah,Bengaluru,2026-01-20,Books,1640.25,2.0,False
+Rohan Gupta,Chennai,2025-03-21,Books,1592.24,8.0,False
+Arjun Reddy,Delhi,2025-07-08,Electronics,1538.7,2.0,False
+Rohan Gupta,Hyderabad,2025-01-06,Home & Kitchen,674.32,8.0,False
+Vikram Rao,Mumbai,2025-12-11,Books,917.37,2.0,False
+Rohan Gupta,Mumbai,2025-12-15,Books,1269.31,6.0,False
+Arjun Reddy,Mumbai,2025-09-04,Electronics,1479.76,9.0,False
+Sneha Iyer,Mumbai,2025-01-28,Books,568.51,7.0,False
+Meera Joshi,Mumbai,2025-07-02,Apparel,912.46,1.0,False
+Priya Nair,Chennai,2025-03-01,Apparel,2155.55,4.0,False
+Vikram Rao,Delhi,2025-02-19,Sports,1326.12,2.0,False
+Vikram Rao,Hyderabad,2025-10-05,Apparel,1659.63,2.0,False
+Priya Nair,Delhi,2025-11-15,Electronics,723.12,1.0,False
+Rohan Gupta,Delhi,2025-12-29,Books,1075.29,5.0,False
+Vikram Rao,Bengaluru,2025-06-20,Sports,1538.7,5.0,False
+Vikram Rao,Hyderabad,2025-08-01,Books,711.15,5.0,False
+Sneha Iyer,Delhi,2025-09-13,Apparel,1772.72,6.0,False
+Karthik Menon,Hyderabad,2025-02-02,Sports,1924.4,4.0,False
+Arjun Reddy,Delhi,2025-10-19,Electronics,1489.57,1.0,False
+Divya Pillai,Chennai,2025-05-01,Books,1698.73,5.0,False
+Vikram Rao,Mumbai,2025-01-25,Electronics,956.92,7.0,False
+Divya Pillai,Hyderabad,2025-10-29,Electronics,921.64,1.0,False
+Ananya Das,Hyderabad,2025-08-21,Home & Kitchen,1538.7,1.0,False
+Divya Pillai,Hyderabad,2026-01-14,Books,907.68,3.0,False
+Priya Nair,Mumbai,2025-02-24,Books,1615.24,6.0,False
+Priya Nair,Hyderabad,2025-05-10,Sports,2315.24,8.0,False
+Arjun Reddy,Chennai,2025-01-27,Home & Kitchen,1538.7,9.0,False
+Arjun Reddy,Chennai,2026-01-31,Books,1748.55,1.0,False
+Sneha Iyer,Hyderabad,2025-07-15,Sports,1114.3,7.0,False
+Divya Pillai,Chennai,2025-12-31,Books,914.7,4.0,False
+Sneha Iyer,Chennai,2025-09-26,Sports,1586.45,9.0,False
+Priya Nair,Delhi,2025-01-29,Sports,1538.7,2.0,False
+Vikram Rao,Chennai,2025-06-13,Sports,1144.9,5.0,False
+Aarav Shah,Bengaluru,2025-01-20,Electronics,1085.89,4.0,False
+Karthik Menon,Bengaluru,2026-12-01,Books,1039.87,7.0,False
+Aarav Shah,Mumbai,2025-09-19,Apparel,1904.06,5.0,False
+Karthik Menon,Bengaluru,2025-03-08,Books,1332.43,3.0,False
+Priya Nair,Mumbai,2025-02-12,Electronics,1512.56,7.0,False
+Rohan Gupta,Chennai,2025-07-26,Books,1538.7,7.0,False
+Meera Joshi,Hyderabad,2025-04-05,Electronics,679.37,8.0,False
+Karthik Menon,Chennai,2025-07-01,Electronics,1520.26,4.0,False
+Vikram Rao,Bengaluru,2025-12-04,Home & Kitchen,1538.7,4.0,False
+Divya Pillai,Chennai,2025-05-19,Electronics,1551.17,6.0,False
+Aarav Shah,Bengaluru,2025-05-03,Home & Kitchen,548.61,9.0,False
+Ananya Das,Mumbai,2025-02-03,Electronics,1320.55,7.0,False
+Ananya Das,Mumbai,2025-04-10,Electronics,1398.74,8.0,False
+Arjun Reddy,Chennai,2025-10-11,Sports,1401.28,5.0,False
+Ananya Das,Hyderabad,2025-03-23,Electronics,1537.94,9.0,False
+Sneha Iyer,Hyderabad,2025-12-27,Sports,838.85,5.0,False
+Divya Pillai,Bengaluru,2025-06-09,Books,963.18,2.0,False
+Rohan Gupta,Delhi,2025-10-09,Apparel,908.24,1.0,False
+Arjun Reddy,Hyderabad,2025-02-21,Books,89999.0,8.0,True
+Vikram Rao,Hyderabad,2025-10-20,Electronics,2054.74,5.0,False
+Vikram Rao,Mumbai,2026-01-23,Sports,1544.34,7.0,False
+Sneha Iyer,Mumbai,2025-06-16,Sports,1850.0,4.0,False
+Aarav Shah,Hyderabad,2025-10-05,Electronics,178.15,9.0,True
+Karthik Menon,Mumbai,2025-08-16,Home & Kitchen,1528.47,9.0,False
+Rohan Gupta,Mumbai,2025-10-10,Electronics,1271.26,4.0,False
+Sneha Iyer,Mumbai,2025-03-28,Home & Kitchen,1908.66,6.0,False
+Meera Joshi,Chennai,2025-01-12,Electronics,2120.81,4.0,False
+Karthik Menon,Delhi,2025-11-11,Apparel,752.2,3.0,False
+Vikram Rao,Hyderabad,2025-03-09,Books,1264.75,3.0,False
+Priya Nair,Hyderabad,2025-12-15,Apparel,981.25,1.0,False
+Priya Nair,Chennai,2025-09-23,Sports,1538.7,4.0,False
+Divya Pillai,Mumbai,2025-05-05,Electronics,2265.65,6.0,False
+Meera Joshi,Bengaluru,2025-11-01,Sports,1526.53,1.0,False
+Karthik Menon,Bengaluru,2025-11-07,Apparel,1918.54,9.0,False
+Karthik Menon,Hyderabad,2025-07-17,Sports,985.21,8.0,False
+Rohan Gupta,Bengaluru,2025-01-31,Electronics,1799.62,5.0,False
+Aarav Shah,Delhi,2025-05-01,Apparel,1923.53,5.0,False
+Meera Joshi,Mumbai,2025-05-05,Home & Kitchen,916.37,8.0,False
+Aarav Shah,Bengaluru,2025-04-03,Electronics,1358.19,9.0,False
+Meera Joshi,Delhi,2025-02-07,Electronics,2009.95,8.0,False
+Aarav Shah,Chennai,2026-01-26,Sports,1979.63,7.0,False
+Rohan Gupta,Mumbai,2025-12-21,Apparel,1687.09,9.0,False
+Vikram Rao,Delhi,2025-03-02,Apparel,1538.7,6.0,False
+Ananya Das,Delhi,2025-07-18,Sports,1102.88,8.0,False
+Ananya Das,Delhi,2025-02-16,Sports,1719.32,5.0,False
+Karthik Menon,Bengaluru,2025-07-10,Apparel,873.67,2.0,False
+Meera Joshi,Chennai,2025-04-27,Electronics,1144.06,8.0,False
+Vikram Rao,Mumbai,2025-03-02,Sports,1950.06,4.0,False
+Divya Pillai,Mumbai,2025-07-09,Electronics,1884.11,1.0,False
+Vikram Rao,Chennai,2025-09-14,Electronics,1115.12,6.0,False
+Meera Joshi,Mumbai,2025-01-31,Sports,1227.26,7.0,False
+Vikram Rao,Hyderabad,2025-07-04,Books,1191.86,6.0,False
+Arjun Reddy,Hyderabad,2025-12-21,Books,1437.99,1.0,False
+Karthik Menon,Chennai,2025-10-14,Home & Kitchen,1580.49,2.0,False
+Sneha Iyer,Hyderabad,2025-09-20,Home & Kitchen,713.21,3.0,False
+Arjun Reddy,Delhi,2025-07-16,Apparel,684.65,1.0,False
+Meera Joshi,Delhi,2025-11-16,Books,1827.49,9.0,False
+Meera Joshi,Mumbai,2025-07-05,Home & Kitchen,1663.9,4.0,False
+Karthik Menon,Hyderabad,2026-01-18,Apparel,1308.16,9.0,False
+Rohan Gupta,Chennai,2025-02-06,Books,2378.83,3.0,False
+Meera Joshi,Mumbai,2025-03-06,Books,1730.88,5.0,False
+Aarav Shah,Delhi,2025-10-02,Sports,1538.7,6.0,False
+Karthik Menon,Mumbai,2026-01-27,Sports,1685.62,4.0,False
+Meera Joshi,Bengaluru,2025-01-11,Electronics,1962.85,7.0,False
+Ananya Das,Chennai,2025-07-23,Books,2181.1,8.0,False
+Arjun Reddy,Mumbai,2025-08-05,Electronics,1538.7,3.0,False
+Ananya Das,Delhi,2025-04-17,Apparel,1607.63,7.0,False
+Divya Pillai,Bengaluru,2026-01-25,Home & Kitchen,954.67,1.0,False
+Meera Joshi,Delhi,2025-07-24,Home & Kitchen,1635.53,5.0,False
+Vikram Rao,Bengaluru,2025-01-17,Books,1612.71,6.0,False
+Aarav Shah,Mumbai,2026-01-24,Home & Kitchen,2117.53,8.0,False
+Arjun Reddy,Delhi,2025-09-08,Books,835.5,5.0,False
+Aarav Shah,Chennai,2025-02-28,Books,1429.29,8.0,False
+Rohan Gupta,Hyderabad,2026-11-01,Electronics,666.49,9.0,False
+Vikram Rao,Delhi,2025-03-01,Apparel,2270.57,1.0,False
+Karthik Menon,Chennai,2025-12-31,Home & Kitchen,1168.06,2.0,False
+Divya Pillai,Mumbai,2025-10-12,Apparel,1538.7,8.0,False
+Aarav Shah,Mumbai,2025-09-06,Sports,579.49,7.0,False
+Vikram Rao,Chennai,2025-07-01,Apparel,2066.62,2.0,False
+Arjun Reddy,Bengaluru,2025-08-16,Home & Kitchen,909.08,7.0,False
+Divya Pillai,Chennai,2025-10-12,Apparel,1538.7,6.0,False
+Arjun Reddy,Mumbai,2025-07-13,Sports,1092.97,4.0,False
+Priya Nair,Hyderabad,2025-11-19,Electronics,924.5,6.0,False
+Meera Joshi,Chennai,2025-02-11,Home & Kitchen,2727.63,5.0,False
+Sneha Iyer,Mumbai,2025-10-04,Home & Kitchen,1730.52,9.0,False
+Sneha Iyer,Chennai,2025-04-08,Sports,2481.95,6.0,False
+Sneha Iyer,Hyderabad,2025-01-06,Home & Kitchen,1736.09,7.0,False
+Divya Pillai,Delhi,2025-09-14,Apparel,2067.12,6.0,False
+Arjun Reddy,Chennai,2025-03-21,Apparel,2336.71,6.0,False
+Karthik Menon,Delhi,2025-01-02,Home & Kitchen,2401.5,9.0,False
+Karthik Menon,Chennai,2025-07-02,Sports,1190.58,5.0,False
+Arjun Reddy,Chennai,2025-09-05,Apparel,977.36,9.0,False
+Arjun Reddy,Hyderabad,2025-08-13,Electronics,437.16,9.0,False
+Meera Joshi,Chennai,2025-12-16,Sports,1522.06,5.0,False
+Vikram Rao,Delhi,2025-09-24,Electronics,1999.79,1.0,False
+Priya Nair,Delhi,2025-10-07,Sports,1419.4,8.0,False
+Aarav Shah,Delhi,2025-09-12,Sports,2364.03,1.0,False
+Karthik Menon,Chennai,2025-03-01,Sports,1398.13,6.0,False
+Priya Nair,Chennai,2025-07-22,Home & Kitchen,1726.88,2.0,False
+Priya Nair,Delhi,2025-01-28,Electronics,985.53,8.0,False
+Aarav Shah,Mumbai,2025-04-21,Books,1221.74,5.0,False
+Arjun Reddy,Bengaluru,2026-01-18,Electronics,1625.2,1.0,False
+Arjun Reddy,Mumbai,2026-01-28,Electronics,1819.93,5.0,False
+Vikram Rao,Bengaluru,2025-08-12,Home & Kitchen,770.77,1.0,False
+Ananya Das,Chennai,2025-08-09,Electronics,1266.28,6.0,False
+Aarav Shah,Hyderabad,2025-05-31,Books,2049.04,4.0,False
+Vikram Rao,Hyderabad,2025-03-30,Books,2666.17,4.0,False
+Rohan Gupta,Chennai,2025-08-01,Sports,674.92,7.0,False
+Sneha Iyer,Bengaluru,2025-11-23,Books,1956.12,9.0,False
+Meera Joshi,Chennai,2025-10-26,Sports,1563.22,1.0,False
+Sneha Iyer,Mumbai,2025-09-28,Books,805.22,4.0,False
+Arjun Reddy,Mumbai,2025-02-11,Books,1320.73,6.0,False
+Meera Joshi,Chennai,2025-12-24,Books,1682.28,5.0,False
+Vikram Rao,Chennai,2025-03-18,Apparel,1088.88,1.0,False
+Karthik Menon,Bengaluru,2025-08-18,Apparel,1551.27,3.0,False
+Sneha Iyer,Hyderabad,2025-02-16,Electronics,1190.05,9.0,False
+Vikram Rao,Hyderabad,2025-03-30,Books,2568.46,2.0,False
+Karthik Menon,Mumbai,2025-02-08,Apparel,1538.7,7.0,False
+Sneha Iyer,Hyderabad,2025-04-04,Electronics,1115.64,1.0,False
+Rohan Gupta,Delhi,2025-11-25,Electronics,1587.27,1.0,False
+Rohan Gupta,Mumbai,2025-02-04,Home & Kitchen,2134.29,3.0,False
+Meera Joshi,Delhi,2025-01-03,Apparel,1538.7,6.0,False
+Meera Joshi,Bengaluru,2025-08-11,Apparel,2074.09,6.0,False
+Aarav Shah,Chennai,2025-06-24,Electronics,1730.67,4.0,False
+Divya Pillai,Delhi,2025-01-07,Sports,2073.98,3.0,False
+Vikram Rao,Delhi,2025-03-02,Books,2107.7,3.0,False
+Divya Pillai,Chennai,2025-08-16,Sports,1207.5,5.0,False
+Priya Nair,Chennai,2025-07-30,Home & Kitchen,1530.0,2.0,False
+Meera Joshi,Hyderabad,2025-10-03,Electronics,1008.55,5.0,False
+Arjun Reddy,Hyderabad,2025-06-13,Electronics,1202.57,5.0,False
+Vikram Rao,Hyderabad,2025-02-11,Sports,1746.86,2.0,False
+Rohan Gupta,Hyderabad,2025-01-19,Home & Kitchen,1726.51,3.0,False
+Karthik Menon,Hyderabad,2025-11-13,Home & Kitchen,710.61,2.0,False
+Meera Joshi,Chennai,2025-10-20,Books,1052.26,5.0,False
+Rohan Gupta,Bengaluru,2025-07-23,Books,1982.01,7.0,False
+Priya Nair,Hyderabad,2025-05-17,Electronics,2150.93,4.0,False
+Vikram Rao,Delhi,2025-01-08,Home & Kitchen,931.02,8.0,False
+Sneha Iyer,Bengaluru,2025-05-07,Electronics,1538.7,9.0,False
+Priya Nair,Chennai,2026-01-01,Sports,1538.7,7.0,False
+Sneha Iyer,Chennai,2025-05-28,Apparel,1515.61,6.0,False
+Sneha Iyer,Mumbai,2025-12-20,Home & Kitchen,1948.95,7.0,False
+Vikram Rao,Chennai,2025-05-07,Books,1663.44,8.0,False
+Meera Joshi,Mumbai,2025-09-01,Sports,758.58,5.0,False
+Ananya Das,Hyderabad,2025-08-15,Apparel,1635.41,2.0,False
+Meera Joshi,Bengaluru,2026-01-15,Electronics,1538.7,8.0,False
+Rohan Gupta,Chennai,2025-11-07,Sports,2080.92,1.0,False
+Rohan Gupta,Hyderabad,2025-02-14,Sports,1903.79,1.0,False
+Aarav Shah,Mumbai,2025-07-16,Sports,1158.06,9.0,False
+Sneha Iyer,Hyderabad,2025-07-16,Electronics,2010.69,9.0,False
+Rohan Gupta,Delhi,2025-09-25,Books,1928.68,2.0,False
+Aarav Shah,Bengaluru,2025-03-02,Home & Kitchen,1758.47,9.0,False
+Karthik Menon,Bengaluru,2025-01-11,Sports,1541.32,6.0,False
+Karthik Menon,Chennai,2025-08-29,Sports,990.54,3.0,False
+Ananya Das,Chennai,2025-08-29,Electronics,1538.7,3.0,False
+Ananya Das,Hyderabad,2025-11-16,Electronics,89999.0,5.0,True
+Arjun Reddy,Bengaluru,2025-11-16,Electronics,1751.16,4.0,False
+Karthik Menon,Chennai,2025-08-04,Electronics,1838.53,8.0,False
+Aarav Shah,Hyderabad,2026-05-01,Books,1999.67,6.0,False
+Divya Pillai,Chennai,2025-04-21,Books,721.43,1.0,False
+Vikram Rao,Chennai,2025-10-02,Sports,1128.2,3.0,False
+Arjun Reddy,Delhi,2025-06-27,Electronics,1358.94,3.0,False
+Vikram Rao,Mumbai,2025-11-27,Electronics,2097.63,8.0,False
+Rohan Gupta,Delhi,2025-05-24,Sports,1655.93,5.0,False
+Sneha Iyer,Mumbai,2025-07-14,Books,1605.26,6.0,False
+Rohan Gupta,Bengaluru,2025-11-02,Books,1651.84,7.0,False
+Priya Nair,Delhi,2025-02-20,Apparel,1129.13,3.0,False
+Divya Pillai,Bengaluru,2026-01-13,Books,1531.96,5.0,False
+Rohan Gupta,Delhi,2025-08-07,Home & Kitchen,1354.64,5.0,False
+Vikram Rao,Chennai,2025-04-29,Books,1440.13,5.0,False
+Ananya Das,Delhi,2025-05-23,Books,1901.83,9.0,False
+Arjun Reddy,Bengaluru,2025-06-20,Electronics,2279.31,6.0,False
+Sneha Iyer,Delhi,2026-02-04,Electronics,1519.44,8.0,False
+Vikram Rao,Delhi,2025-11-02,Sports,1672.57,7.0,False
+Priya Nair,Chennai,2025-09-21,Electronics,1582.49,9.0,False
+Sneha Iyer,Bengaluru,2025-08-09,Home & Kitchen,2035.52,9.0,False
+Divya Pillai,Chennai,2025-05-20,Home & Kitchen,1358.48,3.0,False
+Divya Pillai,Chennai,2025-04-15,Home & Kitchen,1486.22,7.0,False
+Arjun Reddy,Delhi,2025-08-18,Home & Kitchen,725.94,5.0,False
+Karthik Menon,Mumbai,2025-03-03,Electronics,1337.24,8.0,False
+Aarav Shah,Mumbai,2025-08-20,Books,1406.11,6.0,False
+Aarav Shah,Delhi,2025-03-31,Books,1487.15,1.0,False
+Sneha Iyer,Mumbai,2025-06-24,Home & Kitchen,2088.19,3.0,False
+Ananya Das,Hyderabad,2025-06-12,Apparel,1341.53,4.0,False
+Arjun Reddy,Hyderabad,2025-03-09,Books,1349.68,6.0,False
+Ananya Das,Chennai,2025-04-30,Home & Kitchen,1270.88,3.0,False
+Arjun Reddy,Bengaluru,2025-07-02,Sports,1672.38,5.0,False
+Meera Joshi,Mumbai,2025-09-17,Books,2146.94,8.0,False
+Karthik Menon,Mumbai,2025-01-30,Books,1136.09,5.0,False
+Meera Joshi,Hyderabad,2025-02-23,Apparel,1436.63,1.0,False
+Divya Pillai,Chennai,2025-12-27,Home & Kitchen,1673.83,2.0,False
+Divya Pillai,Hyderabad,2025-08-29,Books,1605.71,7.0,False
+Karthik Menon,Delhi,2025-10-09,Apparel,1823.65,5.0,False
+Divya Pillai,Chennai,2025-03-20,Books,1538.7,9.0,False
+Divya Pillai,Chennai,2025-07-12,Apparel,2266.56,5.0,False
+Rohan Gupta,Delhi,2026-01-02,Sports,1582.05,6.0,False
+Rohan Gupta,Bengaluru,2025-07-31,Apparel,578.58,8.0,False
+Arjun Reddy,Delhi,2025-09-30,Books,1257.78,7.0,False
+Karthik Menon,Delhi,2025-06-26,Sports,1230.62,1.0,False
+Arjun Reddy,Mumbai,2025-10-10,Electronics,1789.09,2.0,False
+Aarav Shah,Chennai,2025-10-30,Books,2058.83,7.0,False
+Arjun Reddy,Mumbai,2025-05-18,Sports,1545.94,2.0,False
+Meera Joshi,Hyderabad,2025-08-16,Electronics,2479.01,8.0,False
+Ananya Das,Hyderabad,2025-12-03,Sports,2816.72,6.0,True
+Rohan Gupta,Delhi,2025-08-15,Sports,1171.41,4.0,False
+Ananya Das,Delhi,2025-07-30,Books,1095.36,1.0,False
+Sneha Iyer,Delhi,2025-08-01,Books,1319.43,7.0,False
+Sneha Iyer,Bengaluru,2025-04-25,Sports,1538.7,1.0,False
+Divya Pillai,Mumbai,2026-01-25,Books,1277.12,1.0,False
+Arjun Reddy,Mumbai,2025-08-21,Sports,1932.76,8.0,False
+Karthik Menon,Bengaluru,2025-12-25,Electronics,1239.08,1.0,False
+Meera Joshi,Mumbai,2025-04-30,Electronics,1960.97,5.0,False
+Divya Pillai,Hyderabad,2025-07-30,Home & Kitchen,1324.35,4.0,False
+Rohan Gupta,Mumbai,2025-06-26,Sports,1413.37,2.0,False
+Priya Nair,Hyderabad,2025-11-19,Electronics,1983.53,3.0,False
+Ananya Das,Bengaluru,2025-05-22,Books,410.05,7.0,False
+Sneha Iyer,Chennai,2025-06-14,Books,748.75,6.0,False
+Vikram Rao,Bengaluru,2025-03-16,Sports,1751.71,1.0,False
+Rohan Gupta,Bengaluru,2025-05-30,Apparel,1718.99,6.0,False
+Karthik Menon,Bengaluru,2025-10-10,Electronics,1944.62,5.0,False
+Rohan Gupta,Chennai,2025-12-28,Electronics,637.73,3.0,False
+Divya Pillai,Hyderabad,2026-01-20,Home & Kitchen,1599.75,4.0,False
+Arjun Reddy,Chennai,2025-03-29,Electronics,2953.32,4.0,True
+Karthik Menon,Delhi,2025-03-20,Books,2289.03,5.0,False
+Meera Joshi,Mumbai,2025-11-06,Sports,1556.13,9.0,False
+Arjun Reddy,Mumbai,2025-05-15,Electronics,1444.92,7.0,False
+Rohan Gupta,Bengaluru,2025-04-22,Sports,1550.79,3.0,False
+Rohan Gupta,Bengaluru,2025-03-06,Sports,1257.94,4.0,False
+Aarav Shah,Delhi,2025-12-16,Electronics,827.08,6.0,False
+Karthik Menon,Chennai,2026-01-17,Apparel,1691.95,2.0,False
+Arjun Reddy,Delhi,2025-01-03,Books,1052.29,5.0,False
+Karthik Menon,Bengaluru,2025-09-12,Sports,1538.7,8.0,False
+Arjun Reddy,Mumbai,2025-05-04,Books,2214.79,3.0,False
+Vikram Rao,Mumbai,2025-08-13,Apparel,1356.03,6.0,False
+Rohan Gupta,Mumbai,2025-01-03,Electronics,1888.79,4.0,False
+Ananya Das,Delhi,2025-05-08,Apparel,763.01,5.0,False
+Divya Pillai,Delhi,2025-09-01,Sports,1280.47,6.0,False
+Priya Nair,Chennai,2025-12-03,Electronics,1292.62,5.0,False
+Arjun Reddy,Delhi,2025-10-22,Home & Kitchen,1028.37,9.0,False
+Priya Nair,Mumbai,2025-01-25,Apparel,1346.53,5.0,False
+Rohan Gupta,Chennai,2025-09-19,Electronics,1259.22,3.0,False
+Ananya Das,Hyderabad,2025-11-04,Electronics,2084.07,6.0,False
+Karthik Menon,Mumbai,2025-05-23,Home & Kitchen,1090.96,7.0,False
+Rohan Gupta,Delhi,2025-01-29,Books,1181.98,7.0,False
+Ananya Das,Chennai,2025-02-13,Sports,2111.55,6.0,False
+Arjun Reddy,Mumbai,2025-04-26,Home & Kitchen,2205.69,8.0,False
+Aarav Shah,Hyderabad,2026-01-14,Sports,2083.94,2.0,False
+Karthik Menon,Mumbai,2025-12-20,Apparel,1710.8,3.0,False
+Vikram Rao,Mumbai,2025-06-08,Sports,750.16,6.0,False
+Aarav Shah,Chennai,2026-01-13,Sports,2137.35,5.0,False
+Priya Nair,Mumbai,2025-06-22,Books,1222.02,5.0,False
+Karthik Menon,Chennai,2025-05-01,Books,2147.64,8.0,False
+Vikram Rao,Delhi,2025-04-13,Home & Kitchen,1272.41,6.0,False
+Ananya Das,Delhi,2026-01-08,Sports,2312.02,9.0,False
+Rohan Gupta,Mumbai,2026-01-31,Sports,1242.22,2.0,False
+Vikram Rao,Bengaluru,2025-11-29,Apparel,89999.0,6.0,True
+Arjun Reddy,Chennai,2025-12-02,Electronics,1453.58,7.0,False
+Rohan Gupta,Bengaluru,2025-02-18,Apparel,1327.9,2.0,False
+Aarav Shah,Chennai,2025-05-04,Sports,1556.76,5.0,False
+Vikram Rao,Delhi,2025-01-30,Sports,1658.05,9.0,False
+Priya Nair,Mumbai,2025-08-18,Home & Kitchen,1538.7,4.0,False
+Meera Joshi,Mumbai,2025-01-14,Sports,2353.12,8.0,False
+Vikram Rao,Mumbai,2025-03-29,Books,888.43,7.0,False
+Priya Nair,Delhi,2025-02-16,Sports,1850.34,1.0,False
+Vikram Rao,Delhi,2025-11-19,Apparel,1402.82,4.0,False
+Rohan Gupta,Hyderabad,2025-05-31,Home & Kitchen,1372.81,2.0,False
+Vikram Rao,Bengaluru,2025-03-17,Books,1301.92,4.0,False
+Divya Pillai,Bengaluru,2025-07-07,Books,1625.82,8.0,False
+Sneha Iyer,Bengaluru,2025-02-17,Apparel,1538.7,4.0,False
+Priya Nair,Bengaluru,2025-11-15,Home & Kitchen,2112.36,5.0,False
+Priya Nair,Bengaluru,2025-07-01,Home & Kitchen,775.0,4.0,False
+Vikram Rao,Bengaluru,2026-01-02,Home & Kitchen,840.12,8.0,False
+Karthik Menon,Bengaluru,2025-05-12,Apparel,786.63,7.0,False
+Vikram Rao,Delhi,2026-01-27,Books,1531.06,9.0,False
+Priya Nair,Delhi,2025-06-28,Electronics,1538.7,2.0,False
+Meera Joshi,Mumbai,2025-11-28,Home & Kitchen,2345.03,6.0,False
+Meera Joshi,Hyderabad,2026-01-27,Electronics,975.38,8.0,False
+Aarav Shah,Mumbai,2025-08-28,Electronics,2097.33,7.0,False
+Priya Nair,Mumbai,2025-08-28,Home & Kitchen,1718.95,6.0,False
+Meera Joshi,Bengaluru,2025-12-11,Books,1263.85,7.0,False
+Sneha Iyer,Hyderabad,2025-03-12,Apparel,1311.72,5.0,False
+Meera Joshi,Hyderabad,2025-03-22,Electronics,1418.95,9.0,False
+Vikram Rao,Delhi,2025-03-06,Sports,1227.68,4.0,False
+Priya Nair,Delhi,2025-07-03,Books,1410.56,9.0,False
+Divya Pillai,Delhi,2025-04-15,Electronics,1616.58,8.0,False
+Meera Joshi,Bengaluru,2025-03-21,Sports,2209.9,8.0,False
+Vikram Rao,Hyderabad,2025-01-01,Home & Kitchen,1454.45,8.0,False
+Karthik Menon,Mumbai,2025-01-12,Apparel,1390.77,4.0,False
+Sneha Iyer,Bengaluru,2025-04-26,Electronics,1405.89,2.0,False
+Meera Joshi,Mumbai,2025-07-23,Electronics,1742.99,3.0,False
+Arjun Reddy,Chennai,2026-01-28,Sports,1272.69,7.0,False
+Sneha Iyer,Bengaluru,2025-09-13,Electronics,1084.83,2.0,False
+Vikram Rao,Bengaluru,2025-11-02,Apparel,1853.32,6.0,False
+Karthik Menon,Hyderabad,2025-11-19,Books,569.33,4.0,False
+Aarav Shah,Chennai,2025-11-16,Sports,1453.66,8.0,False
+Rohan Gupta,Bengaluru,2025-03-23,Apparel,2206.57,9.0,False
+Meera Joshi,Delhi,2025-06-14,Home & Kitchen,1597.31,8.0,False
+Vikram Rao,Bengaluru,2025-02-13,Electronics,1273.25,8.0,False
+Rohan Gupta,Delhi,2026-01-24,Books,1857.4,5.0,False
+Karthik Menon,Delhi,2025-08-16,Apparel,1213.89,2.0,False
+Karthik Menon,Bengaluru,2025-07-14,Books,1541.86,8.0,False
+Aarav Shah,Mumbai,2026-01-30,Apparel,1129.85,9.0,False
+Ananya Das,Delhi,2025-05-26,Home & Kitchen,1915.08,2.0,False
+Arjun Reddy,Delhi,2025-02-23,Books,2126.98,4.0,False
+Priya Nair,Hyderabad,2025-08-30,Electronics,1538.7,4.0,False
+Priya Nair,Mumbai,2025-12-05,Sports,1538.7,9.0,False
+Aarav Shah,Delhi,2025-11-17,Books,1226.28,7.0,False
+Karthik Menon,Mumbai,2025-10-31,Home & Kitchen,1764.96,3.0,False
+Arjun Reddy,Bengaluru,2025-03-13,Sports,1743.94,5.0,False
+Rohan Gupta,Hyderabad,2025-04-14,Home & Kitchen,1330.09,5.0,False
+Ananya Das,Mumbai,2025-05-22,Sports,1915.46,8.0,False
+Karthik Menon,Bengaluru,2025-03-02,Books,654.62,1.0,False
+Karthik Menon,Chennai,2025-04-01,Home & Kitchen,1849.44,1.0,False
+Rohan Gupta,Chennai,2025-06-20,Sports,1734.4,5.0,False
+Arjun Reddy,Mumbai,2026-01-16,Home & Kitchen,1934.28,4.0,False
+Karthik Menon,Delhi,2025-11-10,Apparel,1162.02,6.0,False
+Meera Joshi,Mumbai,2025-06-05,Electronics,1778.21,8.0,False
+Arjun Reddy,Mumbai,2025-10-23,Apparel,1290.55,7.0,False
+Arjun Reddy,Chennai,2025-07-19,Sports,1522.13,5.0,False
+Vikram Rao,Delhi,2025-02-27,Electronics,1538.7,8.0,False
+Sneha Iyer,Mumbai,2025-12-22,Apparel,1117.22,4.0,False
+Divya Pillai,Bengaluru,2025-03-23,Books,1251.39,1.0,False
+Sneha Iyer,Chennai,2025-12-04,Electronics,2251.72,7.0,False
+Divya Pillai,Hyderabad,2025-12-30,Electronics,1296.33,4.0,False
+Divya Pillai,Delhi,2025-05-13,Apparel,2167.82,9.0,False
+Karthik Menon,Chennai,2025-03-22,Books,3365.78,3.0,True
+Ananya Das,Delhi,2025-04-03,Apparel,1524.97,5.0,False
+Ananya Das,Chennai,2025-03-21,Apparel,1538.7,6.0,False
+Sneha Iyer,Mumbai,2025-03-05,Electronics,1789.05,3.0,False
+Arjun Reddy,Chennai,2025-11-14,Home & Kitchen,2463.93,8.0,False
+Divya Pillai,Mumbai,2025-11-23,Electronics,1302.78,5.0,False
+Meera Joshi,Chennai,2025-12-01,Books,1638.89,8.0,False
+Arjun Reddy,Delhi,2025-02-16,Electronics,1538.7,6.0,False
+Sneha Iyer,Delhi,2025-08-17,Electronics,2093.98,8.0,False
+Karthik Menon,Chennai,2025-07-30,Electronics,2421.94,4.0,False
+Priya Nair,Hyderabad,2025-10-02,Home & Kitchen,870.76,5.0,False
+Sneha Iyer,Bengaluru,2025-02-10,Electronics,2388.33,7.0,False
+Rohan Gupta,Delhi,2025-04-27,Sports,1538.7,5.0,False
+Sneha Iyer,Delhi,2025-03-24,Electronics,1621.2,3.0,False
+Arjun Reddy,Chennai,2025-10-25,Sports,1089.44,8.0,False
+Meera Joshi,Hyderabad,2026-01-25,Apparel,919.2,2.0,False
+Karthik Menon,Mumbai,2025-03-10,Home & Kitchen,1907.42,4.0,False
+Arjun Reddy,Chennai,2025-03-21,Sports,1641.51,6.0,False
+Aarav Shah,Mumbai,2025-08-03,Electronics,1610.56,7.0,False
+Arjun Reddy,Mumbai,2025-02-07,Books,1444.25,8.0,False
+Rohan Gupta,Chennai,2025-08-29,Apparel,1538.7,5.0,False
+Rohan Gupta,Chennai,2025-10-12,Electronics,927.98,7.0,False
+Ananya Das,Hyderabad,2025-10-22,Sports,1567.08,5.0,False
+Vikram Rao,Bengaluru,2025-01-16,Sports,1696.69,9.0,False
+Rohan Gupta,Hyderabad,2025-09-14,Apparel,1626.08,8.0,False
+Aarav Shah,Delhi,2025-12-31,Sports,1230.59,1.0,False
+Priya Nair,Chennai,2025-05-18,Electronics,460.49,2.0,False
+Divya Pillai,Mumbai,2026-01-09,Electronics,1830.3,1.0,False
+Sneha Iyer,Hyderabad,2025-06-03,Home & Kitchen,1472.86,3.0,False
+Vikram Rao,Bengaluru,2025-08-11,Apparel,1573.34,6.0,False
+Divya Pillai,Delhi,2026-01-14,Electronics,1091.62,9.0,False
+Divya Pillai,Delhi,2025-02-22,Books,1705.21,9.0,False
+Vikram Rao,Bengaluru,2025-07-03,Sports,628.48,9.0,False
+Ananya Das,Bengaluru,2025-07-31,Sports,678.7,7.0,False
+Divya Pillai,Delhi,2025-08-03,Books,1816.68,3.0,False
+Ananya Das,Hyderabad,2025-12-31,Books,1538.7,9.0,False
+Arjun Reddy,Chennai,2026-01-23,Home & Kitchen,954.78,8.0,False
+Sneha Iyer,Chennai,2026-01-24,Electronics,1538.7,3.0,False
+Rohan Gupta,Bengaluru,2025-12-16,Home & Kitchen,761.58,9.0,False
+Sneha Iyer,Bengaluru,2025-08-27,Sports,789.45,2.0,False
+Ananya Das,Delhi,2025-06-12,Home & Kitchen,1394.51,2.0,False
+Priya Nair,Chennai,2025-01-22,Home & Kitchen,61.4,9.0,True
+Divya Pillai,Chennai,2025-04-29,Electronics,1879.6,4.0,False
+Priya Nair,Chennai,2026-02-03,Sports,1538.7,7.0,False
+Meera Joshi,Delhi,2025-07-14,Books,1683.17,8.0,False
+Sneha Iyer,Bengaluru,2025-10-02,Electronics,2095.67,4.0,False
+Ananya Das,Delhi,2025-01-03,Electronics,1562.96,9.0,False
+Meera Joshi,Hyderabad,2025-09-07,Sports,1892.42,5.0,False
+Vikram Rao,Mumbai,2026-01-29,Electronics,1951.18,8.0,False
+Priya Nair,Chennai,2025-12-24,Apparel,1710.46,6.0,False
+Sneha Iyer,Chennai,2025-04-28,Sports,1538.7,1.0,False
+Ananya Das,Bengaluru,2025-02-21,Electronics,1037.61,8.0,False
+Ananya Das,Bengaluru,2025-01-13,Apparel,1379.38,2.0,False
+Sneha Iyer,Mumbai,2025-08-30,Home & Kitchen,1538.7,2.0,False
+Aarav Shah,Hyderabad,2025-10-08,Home & Kitchen,2162.64,5.0,False
+Priya Nair,Mumbai,2025-04-11,Electronics,1538.7,3.0,False
+Karthik Menon,Bengaluru,2025-11-24,Sports,1376.94,6.0,False
+Arjun Reddy,Chennai,2026-04-02,Sports,1538.7,2.0,False

@@ -1,0 +1,526 @@
+Customer Name,  city,Order Date,category ,PRICE,quantity
+Karthik Menon,HYDERABAD ,01/02/2025,Electronics,"₹1,400.25",7.0
+Sneha Iyer,hyderabad,07/29/2025,Apparel,1032.03,2.0
+Vikram Rao,bengaluru,04/01/2025,Electronics,N/A,3.0
+Divya Pillai,chennai,26/06/2025,Sports,1430.08,8.0
+Arjun Reddy,New Delhi,26/07/2025,Sports,448.99,7.0
+Priya Nair,bengaluru,2025-12-11,Sports,1402.86,
+Divya Pillai,Mumbai ,14-Apr-2025,Books,1915.84,1.0
+Arjun Reddy,bengaluru,07/01/2025,Books,2018.31,7.0
+Divya Pillai,HYDERABAD ,2025-06-30,Books,"1,094.14",5.0
+Sneha Iyer,DELHI ,10/12/2025,Apparel,N/A,4.0
+Priya Nair,Bangalore ,2025-05-15,Books,N/A,-8.0
+Sneha Iyer, Chennai,31-Oct-2025,Apparel,2524.57,8.0
+Ananya Das,Bangalore ,02/10/2025,Apparel,"1,019.30",7.0
+Vikram Rao, Hyderabad,19/05/2025,Apparel,"1,584.49",5.0
+Rohan Gupta, Mumbai,02/01/2026,Electronics,853.59,8.0
+Meera Joshi,bengaluru,2025-04-03,Home & Kitchen,"2,113.84",5.0
+Rohan Gupta,DELHI ,04/01/2025,Home & Kitchen,"₹2,230.26",6.0
+Ananya Das,chennai,31/01/2026,Apparel,1568.32,4.0
+Vikram Rao, Mumbai,2025-11-01,Sports,"1,896.83",9.0
+Divya Pillai,delhi,01-May-2025,Electronics,714.88,5.0
+Karthik Menon,hyderabad,2026-01-28,Home & Kitchen,82.94,5.0
+Aarav Shah,Bangalore ,2025-08-12,Apparel,961.56,1.0
+Sneha Iyer, Mumbai,27/02/2025,Apparel,"1,429.32",6.0
+Divya Pillai, Chennai,27-Aug-2025,Books,1557.59,2.0
+Arjun Reddy,chennai,04-Nov-2025,Home & Kitchen,2228.08,3.0
+Arjun Reddy,Mumbai ,12/29/2025,Sports,N/A,6.0
+Sneha Iyer, Hyderabad,2025-08-19,Home & Kitchen,1452.57,7.0
+Priya Nair,hyderabad,28-Apr-2025,Home & Kitchen,"1,833.05",2.0
+Aarav Shah,Mumbai ,2025-05-14,Books,2231.42,1.0
+Rohan Gupta,delhi,23-Nov-2025,Sports,"1,618.12",9.0
+Aarav Shah,bengaluru ,2025-10-24,Sports,1394.68,1.0
+Priya Nair,delhi,03/12/2025,Home & Kitchen,1828.04,5.0
+Aarav Shah,chennai ,06/28/2025,Electronics,285.68,4.0
+Priya Nair, Hyderabad,01/04/2025,Books,"₹2,201.65",8.0
+Sneha Iyer,MUMBAI,12/07/2025,Apparel,1284.77,2.0
+Priya Nair,New Delhi,2025-04-05,Sports,582.79,1.0
+Divya Pillai,New Delhi,09/14/2025,Apparel,89999.00,6.0
+Sneha Iyer,HYDERABAD ,2025-05-20,Sports,1880.46,5.0
+Priya Nair,hyderabad,21-Oct-2025,Apparel,896.09,6.0
+Meera Joshi,bengaluru ,01/15/2026,Apparel,2283.27,6.0
+Priya Nair,Mumbai ,10/16/2025,Books,1456.45,6.0
+Ananya Das,hyderabad,2025-06-08,Electronics,N/A,3.0
+Priya Nair,mumbai,18-Sep-2025,Electronics,2331.06,1.0
+Meera Joshi,bengaluru ,10/19/2025,Electronics,676.16,9.0
+Karthik Menon,Delhi ,11-Jun-2025,Books,"2,161.14",9.0
+Sneha Iyer,hyderabad,04-Feb-2026,Books,"2,018.53",4.0
+Ananya Das,bengaluru ,16/01/2025,Books,"₹1,990.16",7.0
+Karthik Menon, Chennai,06/12/2025,Electronics,"₹1,597.59",3.0
+Meera Joshi,DELHI ,15/05/2025,Electronics,"₹2,070.23",3.0
+Priya Nair,Bangalore ,2025-02-16,Sports,"1,580.45",-4.0
+Divya Pillai,Bangalore ,08/03/2025,Home & Kitchen,1089.06,6.0
+Meera Joshi, Hyderabad,09/11/2025,Apparel,1862.97,7.0
+Arjun Reddy, Chennai,06/03/2025,Apparel,1668.04,9.0
+Priya Nair,Bangalore ,12/12/2025,Electronics,"₹1,552.22",1.0
+Karthik Menon, Mumbai,04/07/2025,Apparel,"₹1,266.90",4.0
+Arjun Reddy, BENGALURU,25/01/2025,Sports,1046.9,3.0
+Meera Joshi,bengaluru,13-Dec-2025,Sports,N/A,6.0
+Vikram Rao,chennai,2025-02-07,Electronics,"₹1,032.90",
+Sneha Iyer,New Delhi,13-Dec-2025,Books,1705.19,6.0
+Ananya Das,MUMBAI,12-Sep-2025,Sports,,1.0
+Divya Pillai,hyderabad,01/02/2026,Books,"₹1,215.84",3.0
+Sneha Iyer,hyderabad,10/04/2025,Apparel,"₹2,185.70",2.0
+Karthik Menon,DELHI ,28-Dec-2025,Books,1900.18,5.0
+Priya Nair, Hyderabad,12/24/2025,Apparel,"1,179.78",9.0
+Vikram Rao,bengaluru ,2025-06-05,Electronics,1058.57,9.0
+Karthik Menon,bengaluru,15/01/2025,Electronics,2042.24,5.0
+Priya Nair,Mumbai ,10/16/2025,Books,1456.45,6.0
+Karthik Menon, BENGALURU,11/03/2025,Electronics,"₹1,873.60",5.0
+Sneha Iyer,CHENNAI,2025-01-14,Electronics,834.01,8.0
+Sneha Iyer,MUMBAI,2025-09-19,Apparel,1581.38,9.0
+Divya Pillai,mumbai,2026-01-24,Apparel,268.14,4.0
+Karthik Menon, Mumbai,07-Feb-2025,Electronics,1014.93,6.0
+Arjun Reddy, BENGALURU,03/11/2025,Home & Kitchen,"1,998.72",9.0
+Priya Nair,HYDERABAD ,01/23/2025,Books,"1,639.74",4.0
+Meera Joshi,Bangalore ,02/22/2025,Home & Kitchen,1639.47,1.0
+Priya Nair, Hyderabad,23/02/2025,Electronics,"₹1,782.82",9.0
+Arjun Reddy,HYDERABAD ,18-Jul-2025,Books,1441.44,7.0
+Ananya Das,Bangalore ,05/03/2025,Books,2116.57,5.0
+Vikram Rao, Chennai,2025-11-21,Books,1595.39,7.0
+Sneha Iyer,HYDERABAD ,08/17/2025,Electronics,1653.78,2.0
+Divya Pillai,mumbai,18-Nov-2025,Apparel,986.34,2.0
+Vikram Rao,DELHI ,18-Dec-2025,Books,1037.09,6.0
+Meera Joshi,Bangalore ,08/24/2025,Home & Kitchen,N/A,1.0
+Aarav Shah, BENGALURU,11/16/2025,Apparel,N/A,8.0
+Karthik Menon,hyderabad,03/09/2025,Sports,610.94,1.0
+Vikram Rao,Bangalore ,01/03/2025,Apparel,1560.68,5.0
+Karthik Menon,chennai,2025-04-09,Books,"₹1,574.96",-7.0
+Aarav Shah, BENGALURU,20-Jan-2026,Books,1640.25,2.0
+Rohan Gupta,CHENNAI,21-Mar-2025,Books,"1,592.24",8.0
+Arjun Reddy,delhi,08/07/2025,Electronics,N/A,2.0
+Rohan Gupta,hyderabad,2025-06-01,Home & Kitchen,₹674.32,8.0
+Vikram Rao,MUMBAI,2025-11-12,Books,917.37,2.0
+Rohan Gupta,MUMBAI,15/12/2025,Books,1269.31,6.0
+Arjun Reddy,MUMBAI,04/09/2025,Electronics,1479.76,9.0
+Sneha Iyer,mumbai,28/01/2025,Books,568.51,7.0
+Meera Joshi,Mumbai ,02/07/2025,Apparel,912.46,1.0
+Priya Nair,CHENNAI,2025-01-03,Apparel,"₹2,155.55",4.0
+Vikram Rao,DELHI ,2025-02-19,Sports,"₹1,326.12",2.0
+Vikram Rao, Hyderabad,05-Oct-2025,Apparel,1659.63,2.0
+Priya Nair,delhi,11/15/2025,Electronics,₹723.12,1.0
+Rohan Gupta,Delhi ,29/12/2025,Books,"1,075.29",
+Vikram Rao,bengaluru,20-Jun-2025,Sports,,5.0
+Vikram Rao,hyderabad,2025-01-08,Books,₹711.15,5.0
+Sneha Iyer,Delhi ,09/13/2025,Apparel,"₹1,772.72",6.0
+Karthik Menon,hyderabad,2025-02-02,Sports,1924.4,4.0
+Arjun Reddy,DELHI ,19/10/2025,Electronics,1489.57,1.0
+Divya Pillai, Chennai,01/05/2025,Books,"1,698.73",
+Vikram Rao,mumbai,25/01/2025,Electronics,956.92,7.0
+Divya Pillai,HYDERABAD ,29-Oct-2025,Electronics,921.64,1.0
+Ananya Das,hyderabad,08/21/2025,Home & Kitchen,,1.0
+Divya Pillai,HYDERABAD ,14-Jan-2026,Books,907.68,3.0
+Priya Nair,mumbai,2025-02-24,Books,"1,615.24",6.0
+Priya Nair, Hyderabad,10-May-2025,Sports,2315.24,8.0
+Arjun Reddy,chennai ,2025-01-27,Home & Kitchen,N/A,9.0
+Arjun Reddy,chennai,31/01/2026,Books,1748.55,1.0
+Sneha Iyer,hyderabad,2025-07-15,Sports,1114.3,7.0
+Divya Pillai,chennai,31/12/2025,Books,914.70,4.0
+Sneha Iyer, Chennai,26-Sep-2025,Sports,"1,586.45",9.0
+Priya Nair,delhi,29/01/2025,Sports,,2.0
+Vikram Rao,chennai ,06/13/2025,Sports,1144.9,5.0
+Aarav Shah,bengaluru,01/20/2025,Electronics,"1,085.89",4.0
+Karthik Menon,bengaluru ,2026-01-12,Books,1039.87,7.0
+Aarav Shah,Mumbai ,19-Sep-2025,Apparel,"₹1,904.06",5.0
+Karthik Menon,bengaluru,2025-08-03,Books,1332.43,3.0
+Priya Nair,MUMBAI,12/02/2025,Electronics,1512.56,7.0
+Rohan Gupta, Chennai,26/07/2025,Books,,7.0
+Vikram Rao,MUMBAI,2025-11-12,Books,917.37,2.0
+Meera Joshi,hyderabad,05-Apr-2025,Electronics,679.37,8.0
+Karthik Menon,chennai ,01/07/2025,Electronics,1520.26,4.0
+Vikram Rao,bengaluru,2025-04-12,Home & Kitchen,N/A,4.0
+Divya Pillai,CHENNAI,19-May-2025,Electronics,"₹1,551.17",6.0
+Karthik Menon,bengaluru ,2026-01-12,Books,1039.87,7.0
+Aarav Shah,Bangalore ,2025-03-05,Home & Kitchen,548.61,9.0
+Ananya Das,Mumbai ,03-Feb-2025,Electronics,1320.55,7.0
+Ananya Das, Mumbai,10-Apr-2025,Electronics,"1,398.74",8.0
+Arjun Reddy,chennai,2025-11-10,Sports,1401.28,5.0
+Ananya Das,hyderabad,2025-03-23,Electronics,1537.94,9.0
+Sneha Iyer,hyderabad,27/12/2025,Sports,₹838.85,5.0
+Divya Pillai,Bangalore ,09/06/2025,Books,963.18,-2.0
+Rohan Gupta,New Delhi,2025-09-10,Apparel,908.24,1.0
+Arjun Reddy, Hyderabad,21-Feb-2025,Books,89999.00,8.0
+Vikram Rao,HYDERABAD ,2025-10-20,Electronics,"2,054.74",5.0
+Vikram Rao, Mumbai,01/23/2026,Sports,1544.34,7.0
+Sneha Iyer,Mumbai ,06/16/2025,Sports,1850.0,4.0
+Aarav Shah, Hyderabad,05/10/2025,Electronics,178.15,9.0
+Karthik Menon,Mumbai ,08/16/2025,Home & Kitchen,1528.47,9.0
+Rohan Gupta,MUMBAI,10-Oct-2025,Electronics,1271.26,4.0
+Sneha Iyer, Mumbai,28/03/2025,Home & Kitchen,1908.66,6.0
+Meera Joshi,chennai ,12/01/2025,Electronics,2120.81,4.0
+Karthik Menon,New Delhi,2025-11-11,Apparel,₹752.20,3.0
+Vikram Rao,hyderabad,09-Mar-2025,Books,"1,264.75",3.0
+Priya Nair,hyderabad,15-Dec-2025,Apparel,₹981.25,1.0
+Priya Nair,chennai,2025-09-23,Sports,,4.0
+Divya Pillai,MUMBAI,05-May-2025,Electronics,2265.65,6.0
+Meera Joshi,bengaluru ,01/11/2025,Sports,1526.53,1.0
+Ananya Das,hyderabad,2025-06-08,Electronics,N/A,3.0
+Karthik Menon, BENGALURU,07/11/2025,Apparel,1918.54,9.0
+Karthik Menon,hyderabad,17-Jul-2025,Sports,₹985.21,8.0
+Rohan Gupta,Bangalore ,2025-01-31,Electronics,1799.62,-5.0
+Aarav Shah,Delhi ,01-May-2025,Apparel,1923.53,5.0
+Meera Joshi,MUMBAI,05/05/2025,Home & Kitchen,₹916.37,8.0
+Aarav Shah,bengaluru,2025-03-04,Electronics,1358.19,9.0
+Meera Joshi,delhi,07/02/2025,Electronics,2009.95,8.0
+Aarav Shah, Chennai,2026-01-26,Sports,1979.63,7.0
+Rohan Gupta,MUMBAI,21-Dec-2025,Apparel,1687.09,9.0
+Vikram Rao,New Delhi,02-Mar-2025,Apparel,N/A,6.0
+Ananya Das,New Delhi,07/18/2025,Sports,1102.88,8.0
+Ananya Das,delhi,16-Feb-2025,Sports,"1,719.32",5.0
+Karthik Menon,bengaluru ,10/07/2025,Apparel,₹873.67,2.0
+Meera Joshi, Chennai,27-Apr-2025,Electronics,"1,144.06",8.0
+Vikram Rao,MUMBAI,02/03/2025,Sports,1950.06,4.0
+Divya Pillai,MUMBAI,09/07/2025,Electronics,1884.11,1.0
+Vikram Rao,CHENNAI,14/09/2025,Electronics,1115.12,6.0
+Meera Joshi,Mumbai ,2025-01-31,Sports,1227.26,7.0
+Vikram Rao, Hyderabad,04/07/2025,Books,"₹1,191.86",6.0
+Arjun Reddy, Hyderabad,21-Dec-2025,Books,1437.99,1.0
+Karthik Menon, Chennai,14-Oct-2025,Home & Kitchen,"1,580.49",2.0
+Sneha Iyer, Hyderabad,20/09/2025,Home & Kitchen,713.21,3.0
+Arjun Reddy,DELHI ,07/16/2025,Apparel,684.65,1.0
+Meera Joshi,DELHI ,2025-11-16,Books,1827.49,9.0
+Meera Joshi,mumbai,05/07/2025,Home & Kitchen,1663.9,4.0
+Vikram Rao, Hyderabad,05-Oct-2025,Apparel,1659.63,2.0
+Sneha Iyer,hyderabad,27/12/2025,Sports,₹838.85,5.0
+Karthik Menon,hyderabad,18/01/2026,Apparel,"₹1,308.16",9.0
+Rohan Gupta,chennai ,06-Feb-2025,Books,"₹2,378.83",3.0
+Meera Joshi,mumbai,06-Mar-2025,Books,1730.88,5.0
+Aarav Shah,Delhi ,02-Oct-2025,Sports,N/A,6.0
+Karthik Menon, Mumbai,2026-01-27,Sports,1685.62,4.0
+Meera Joshi,Bangalore ,11-Jan-2025,Electronics,1962.85,7.0
+Ananya Das,chennai,2025-07-23,Books,2181.1,8.0
+Arjun Reddy,Mumbai ,05-Aug-2025,Electronics,N/A,3.0
+Ananya Das,Delhi ,04/17/2025,Apparel,1607.63,7.0
+Divya Pillai,bengaluru,25/01/2026,Home & Kitchen,954.67,1.0
+Meera Joshi,delhi,2025-07-24,Home & Kitchen,1635.53,5.0
+Vikram Rao,bengaluru ,2025-01-17,Books,1612.71,6.0
+Aarav Shah,mumbai,2026-01-24,Home & Kitchen,"2,117.53",8.0
+Arjun Reddy,DELHI ,2025-08-09,Books,835.50,5.0
+Aarav Shah,chennai,2025-02-28,Books,1429.29,-8.0
+Rohan Gupta,HYDERABAD ,2026-01-11,Electronics,666.49,9.0
+Vikram Rao,delhi,01-Mar-2025,Apparel,"2,270.57",1.0
+Karthik Menon,CHENNAI,2025-12-31,Home & Kitchen,1168.06,2.0
+Divya Pillai,MUMBAI,12/10/2025,Apparel,N/A,8.0
+Vikram Rao,bengaluru ,2025-01-17,Books,1612.71,6.0
+Aarav Shah, Mumbai,06/09/2025,Sports,579.49,7.0
+Vikram Rao,CHENNAI,01/07/2025,Apparel,2066.62,2.0
+Arjun Reddy,Bangalore ,2025-08-16,Home & Kitchen,909.08,7.0
+Divya Pillai,chennai ,12/10/2025,Apparel,N/A,6.0
+Arjun Reddy, Mumbai,07/13/2025,Sports,1092.97,4.0
+Priya Nair,hyderabad,19-Nov-2025,Electronics,924.5,6.0
+Meera Joshi, Chennai,11/02/2025,Home & Kitchen,"₹2,727.63",5.0
+Sneha Iyer,MUMBAI,04/10/2025,Home & Kitchen,1730.52,9.0
+Sneha Iyer,chennai,08-Apr-2025,Sports,2481.95,6.0
+Sneha Iyer, Hyderabad,06-Jan-2025,Home & Kitchen,1736.09,7.0
+Divya Pillai,New Delhi,09/14/2025,Apparel,"₹2,067.12",6.0
+Arjun Reddy,chennai ,21/03/2025,Apparel,2336.71,6.0
+Karthik Menon,New Delhi,2025-02-01,Home & Kitchen,2401.5,9.0
+Karthik Menon,CHENNAI,02/07/2025,Sports,1190.58,5.0
+Arjun Reddy,chennai,05/09/2025,Apparel,977.36,9.0
+Arjun Reddy, Hyderabad,13-Aug-2025,Electronics,437.16,9.0
+Meera Joshi, Chennai,16/12/2025,Sports,1522.06,
+Ananya Das,Bangalore ,05/03/2025,Books,2116.57,5.0
+Vikram Rao,delhi,09/24/2025,Electronics,1999.79,1.0
+Priya Nair,New Delhi,07/10/2025,Sports,"1,419.40",8.0
+Aarav Shah,Delhi ,12/09/2025,Sports,"₹2,364.03",1.0
+Karthik Menon,CHENNAI,01-Mar-2025,Sports,1398.13,6.0
+Priya Nair, Chennai,22-Jul-2025,Home & Kitchen,"₹1,726.88",2.0
+Priya Nair,DELHI ,01/28/2025,Electronics,985.53,8.0
+Aarav Shah,mumbai,21/04/2025,Books,1221.74,5.0
+Arjun Reddy,Bangalore ,01/18/2026,Electronics,1625.2,1.0
+Arjun Reddy,Mumbai ,28/01/2026,Electronics,"1,819.93",5.0
+Vikram Rao,bengaluru,12/08/2025,Home & Kitchen,770.77,1.0
+Ananya Das,chennai,09/08/2025,Electronics,"1,266.28",6.0
+Aarav Shah,HYDERABAD ,2025-05-31,Books,2049.04,4.0
+Vikram Rao,hyderabad,03/30/2025,Books,2666.17,4.0
+Rohan Gupta,chennai,01/08/2025,Sports,674.92,7.0
+Sneha Iyer, BENGALURU,2025-11-23,Books,1956.12,9.0
+Meera Joshi, Chennai,26/10/2025,Sports,1563.22,1.0
+Sneha Iyer,Mumbai ,28/09/2025,Books,805.22,4.0
+Arjun Reddy, Mumbai,11/02/2025,Books,"₹1,320.73",6.0
+Meera Joshi,chennai ,12/24/2025,Books,1682.28,5.0
+Vikram Rao,chennai ,18/03/2025,Apparel,1088.88,1.0
+Karthik Menon, BENGALURU,18/08/2025,Apparel,"1,551.27",-3.0
+Sneha Iyer,hyderabad,2025-02-16,Electronics,"₹1,190.05",9.0
+Vikram Rao,hyderabad,2025-03-30,Books,2568.46,2.0
+Karthik Menon, Mumbai,08/02/2025,Apparel,N/A,7.0
+Sneha Iyer, Hyderabad,04-Apr-2025,Electronics,"₹1,115.64",1.0
+Rohan Gupta,delhi,2025-11-25,Electronics,1587.27,1.0
+Rohan Gupta,Mumbai ,04/02/2025,Home & Kitchen,"₹2,134.29",3.0
+Meera Joshi,DELHI ,2025-03-01,Apparel,,6.0
+Meera Joshi, BENGALURU,11-Aug-2025,Apparel,"₹2,074.09",6.0
+Aarav Shah,CHENNAI,06/24/2025,Electronics,1730.67,4.0
+Divya Pillai,New Delhi,07/01/2025,Sports,"₹2,073.98",3.0
+Vikram Rao,DELHI ,02-Mar-2025,Books,"₹2,107.70",3.0
+Divya Pillai,chennai ,16-Aug-2025,Sports,1207.5,5.0
+Priya Nair, Chennai,30-Jul-2025,Home & Kitchen,1530.0,2.0
+Meera Joshi,hyderabad,03-Oct-2025,Electronics,"₹1,008.55",
+Arjun Reddy, Hyderabad,13-Jun-2025,Electronics,1202.57,5.0
+Vikram Rao,HYDERABAD ,11/02/2025,Sports,1746.86,2.0
+Rohan Gupta,HYDERABAD ,2025-01-19,Home & Kitchen,1726.51,3.0
+Rohan Gupta,Bangalore ,2025-01-31,Electronics,1799.62,-5.0
+Karthik Menon, Hyderabad,13-Nov-2025,Home & Kitchen,₹710.61,2.0
+Meera Joshi, Chennai,2025-10-20,Books,1052.26,5.0
+Rohan Gupta,bengaluru,2025-07-23,Books,"₹1,982.01",7.0
+Priya Nair, Hyderabad,05/17/2025,Electronics,"₹2,150.93",4.0
+Vikram Rao,delhi,08/01/2025,Home & Kitchen,931.02,8.0
+Sneha Iyer,Bangalore ,2025-07-05,Electronics,N/A,9.0
+Priya Nair,chennai,01/01/2026,Sports,,-7.0
+Sneha Iyer,chennai ,28/05/2025,Apparel,"1,515.61",6.0
+Sneha Iyer,mumbai,20/12/2025,Home & Kitchen,"₹1,948.95",7.0
+Vikram Rao, Chennai,07/05/2025,Books,"₹1,663.44",8.0
+Meera Joshi,MUMBAI,01/09/2025,Sports,758.58,5.0
+Arjun Reddy,Mumbai ,12/29/2025,Sports,N/A,6.0
+Ananya Das, Hyderabad,08/15/2025,Apparel,1635.41,2.0
+Meera Joshi,bengaluru,2026-01-15,Electronics,,8.0
+Rohan Gupta,CHENNAI,07/11/2025,Sports,"2,080.92",1.0
+Rohan Gupta,hyderabad,14-Feb-2025,Sports,"₹1,903.79",1.0
+Aarav Shah, Mumbai,16-Jul-2025,Sports,1158.06,9.0
+Sneha Iyer,hyderabad,16-Jul-2025,Electronics,"₹2,010.69",-9.0
+Rohan Gupta,New Delhi,25-Sep-2025,Books,1928.68,2.0
+Aarav Shah, BENGALURU,02/03/2025,Home & Kitchen,1758.47,9.0
+Karthik Menon,bengaluru ,11/01/2025,Sports,"₹1,541.32",6.0
+Karthik Menon, Chennai,29/08/2025,Sports,990.54,-3.0
+Ananya Das,chennai,08/29/2025,Electronics,N/A,3.0
+Ananya Das,hyderabad,11/16/2025,Electronics,89999.00,5.0
+Arjun Reddy,bengaluru ,2025-11-16,Electronics,1751.16,4.0
+Karthik Menon,chennai,2025-04-08,Electronics,1838.53,8.0
+Aarav Shah, Hyderabad,01/05/2026,Books,1999.67,6.0
+Divya Pillai, Chennai,21/04/2025,Books,721.43,1.0
+Vikram Rao,CHENNAI,02/10/2025,Sports,"1,128.20",3.0
+Arjun Reddy,New Delhi,27-Jun-2025,Electronics,"1,358.94",3.0
+Vikram Rao,Mumbai ,27-Nov-2025,Electronics,2097.63,8.0
+Rohan Gupta,New Delhi,24-May-2025,Sports,1655.93,5.0
+Sneha Iyer, Mumbai,07/14/2025,Books,1605.26,6.0
+Rohan Gupta,bengaluru ,02-Nov-2025,Books,"₹1,651.84",7.0
+Priya Nair,DELHI ,02/20/2025,Apparel,"₹1,129.13",3.0
+Divya Pillai,bengaluru,13-Jan-2026,Books,1531.96,5.0
+Rohan Gupta,delhi,07/08/2025,Home & Kitchen,1354.64,5.0
+Vikram Rao,CHENNAI,29/04/2025,Books,"₹1,440.13",
+Ananya Das,New Delhi,05/23/2025,Books,"₹1,901.83",9.0
+Arjun Reddy, BENGALURU,20/06/2025,Electronics,2279.31,6.0
+Sneha Iyer,DELHI ,04-Feb-2026,Electronics,"1,519.44",8.0
+Vikram Rao,DELHI ,2025-02-11,Sports,1672.57,7.0
+Priya Nair, Chennai,21/09/2025,Electronics,1582.49,9.0
+Sneha Iyer, BENGALURU,09/08/2025,Home & Kitchen,2035.52,9.0
+Divya Pillai, Chennai,20/05/2025,Home & Kitchen,1358.48,3.0
+Divya Pillai,CHENNAI,15/04/2025,Home & Kitchen,1486.22,7.0
+Arjun Reddy,New Delhi,18-Aug-2025,Home & Kitchen,725.94,-5.0
+Karthik Menon,MUMBAI,03/03/2025,Electronics,1337.24,-8.0
+Aarav Shah,MUMBAI,20/08/2025,Books,"1,406.11",6.0
+Aarav Shah,Delhi ,31-Mar-2025,Books,"1,487.15",1.0
+Sneha Iyer,mumbai,24-Jun-2025,Home & Kitchen,2088.19,3.0
+Ananya Das,hyderabad,12-Jun-2025,Apparel,1341.53,4.0
+Arjun Reddy,hyderabad,09-Mar-2025,Books,"₹1,349.68",6.0
+Ananya Das,chennai,30/04/2025,Home & Kitchen,"1,270.88",3.0
+Arjun Reddy,Bangalore ,02/07/2025,Sports,1672.38,5.0
+Meera Joshi,MUMBAI,17-Sep-2025,Books,"2,146.94",8.0
+Karthik Menon,MUMBAI,01/30/2025,Books,"1,136.09",5.0
+Meera Joshi,HYDERABAD ,23-Feb-2025,Apparel,1436.63,1.0
+Vikram Rao,chennai ,06/13/2025,Sports,1144.9,5.0
+Divya Pillai, Chennai,12/27/2025,Home & Kitchen,1673.83,2.0
+Divya Pillai,HYDERABAD ,2025-08-29,Books,"₹1,605.71",7.0
+Karthik Menon,Delhi ,09/10/2025,Apparel,1823.65,5.0
+Divya Pillai,chennai ,20-Mar-2025,Books,,9.0
+Divya Pillai,CHENNAI,12-Jul-2025,Apparel,"₹2,266.56",5.0
+Rohan Gupta,New Delhi,02/01/2026,Sports,1582.05,6.0
+Rohan Gupta, BENGALURU,07/31/2025,Apparel,578.58,8.0
+Arjun Reddy,delhi,2025-09-30,Books,1257.78,7.0
+Karthik Menon,DELHI ,2025-06-26,Sports,"1,230.62",1.0
+Arjun Reddy,Mumbai ,10/10/2025,Electronics,"₹1,789.09",2.0
+Meera Joshi,mumbai,06-Mar-2025,Books,1730.88,5.0
+Aarav Shah,CHENNAI,30/10/2025,Books,2058.83,7.0
+Arjun Reddy,mumbai,05/18/2025,Sports,1545.94,2.0
+Meera Joshi,hyderabad,08/16/2025,Electronics,2479.01,8.0
+Ananya Das,hyderabad,03/12/2025,Sports,"2,816.72",6.0
+Rohan Gupta,New Delhi,08/15/2025,Sports,"₹1,171.41",4.0
+Ananya Das,New Delhi,07/30/2025,Books,"1,095.36",1.0
+Sneha Iyer,delhi,01/08/2025,Books,1319.43,7.0
+Sneha Iyer, BENGALURU,2025-04-25,Sports,N/A,1.0
+Divya Pillai, Mumbai,01/25/2026,Books,1277.12,1.0
+Arjun Reddy,Mumbai ,08/21/2025,Sports,1932.76,8.0
+Karthik Menon,bengaluru ,25-Dec-2025,Electronics,1239.08,1.0
+Meera Joshi,mumbai,2025-04-30,Electronics,1960.97,5.0
+Divya Pillai,HYDERABAD ,30-Jul-2025,Home & Kitchen,1324.35,4.0
+Rohan Gupta,Mumbai ,2025-06-26,Sports,"₹1,413.37",2.0
+Priya Nair,hyderabad,19/11/2025,Electronics,"1,983.53",3.0
+Ananya Das,bengaluru ,22-May-2025,Books,410.05,7.0
+Sneha Iyer, Chennai,14/06/2025,Books,748.75,6.0
+Vikram Rao, BENGALURU,16/03/2025,Sports,1751.71,1.0
+Rohan Gupta,Bangalore ,05/30/2025,Apparel,1718.99,-6.0
+Karthik Menon,bengaluru ,10-Oct-2025,Electronics,1944.62,5.0
+Rohan Gupta, Chennai,12/28/2025,Electronics,637.73,3.0
+Divya Pillai,hyderabad,20-Jan-2026,Home & Kitchen,1599.75,4.0
+Arjun Reddy,chennai,2025-03-29,Electronics,"2,953.32",4.0
+Karthik Menon,delhi,20/03/2025,Books,2289.03,5.0
+Meera Joshi,MUMBAI,06-Nov-2025,Sports,1556.13,9.0
+Arjun Reddy, Mumbai,15/05/2025,Electronics,1444.92,7.0
+Rohan Gupta,Bangalore ,22-Apr-2025,Sports,1550.79,3.0
+Rohan Gupta, BENGALURU,06/03/2025,Sports,"1,257.94",4.0
+Aarav Shah,New Delhi,2025-12-16,Electronics,827.08,6.0
+Karthik Menon,CHENNAI,17/01/2026,Apparel,"₹1,691.95",2.0
+Arjun Reddy,Delhi ,2025-03-01,Books,"₹1,052.29",5.0
+Karthik Menon,bengaluru ,12-Sep-2025,Sports,N/A,-8.0
+Arjun Reddy, Mumbai,2025-04-05,Books,2214.79,3.0
+Vikram Rao,Mumbai ,13-Aug-2025,Apparel,1356.03,6.0
+Rohan Gupta,Mumbai ,2025-03-01,Electronics,1888.79,4.0
+Ananya Das,delhi,08-May-2025,Apparel,₹763.01,5.0
+Divya Pillai,delhi,01/09/2025,Sports,1280.47,6.0
+Priya Nair,CHENNAI,03/12/2025,Electronics,1292.62,5.0
+Arjun Reddy,DELHI ,22/10/2025,Home & Kitchen,1028.37,9.0
+Priya Nair, Mumbai,25-Jan-2025,Apparel,"1,346.53",5.0
+Aarav Shah, BENGALURU,20-Jan-2026,Books,1640.25,2.0
+Rohan Gupta, Chennai,19/09/2025,Electronics,"1,259.22",3.0
+Ananya Das, Hyderabad,04/11/2025,Electronics,"2,084.07",6.0
+Karthik Menon,Mumbai ,05/23/2025,Home & Kitchen,"1,090.96",7.0
+Rohan Gupta,DELHI ,2025-01-29,Books,1181.98,7.0
+Ananya Das,chennai ,13/02/2025,Sports,2111.55,6.0
+Arjun Reddy, Mumbai,26-Apr-2025,Home & Kitchen,2205.69,8.0
+Aarav Shah,HYDERABAD ,2026-01-14,Sports,2083.94,2.0
+Karthik Menon,MUMBAI,12/20/2025,Apparel,1710.8,3.0
+Vikram Rao,Mumbai ,2025-08-06,Sports,750.16,6.0
+Aarav Shah,CHENNAI,2026-01-13,Sports,2137.35,5.0
+Priya Nair,Mumbai ,22/06/2025,Books,1222.02,
+Karthik Menon,chennai,2025-01-05,Books,2147.64,8.0
+Vikram Rao,Delhi ,13-Apr-2025,Home & Kitchen,1272.41,6.0
+Ananya Das,New Delhi,08/01/2026,Sports,"₹2,312.02",9.0
+Priya Nair,HYDERABAD ,01/23/2025,Books,"1,639.74",4.0
+Rohan Gupta,Mumbai ,31/01/2026,Sports,1242.22,2.0
+Vikram Rao, BENGALURU,11/29/2025,Apparel,89999.00,6.0
+Arjun Reddy, Chennai,02-Dec-2025,Electronics,"₹1,453.58",7.0
+Rohan Gupta, BENGALURU,2025-02-18,Apparel,1327.9,2.0
+Aarav Shah,chennai,04/05/2025,Sports,1556.76,5.0
+Vikram Rao,delhi,2025-01-30,Sports,"₹1,658.05",9.0
+Arjun Reddy,MUMBAI,04/09/2025,Electronics,1479.76,9.0
+Priya Nair,mumbai,2025-08-18,Home & Kitchen,"₹1,538.70",4.0
+Meera Joshi, Mumbai,14/01/2025,Sports,2353.12,8.0
+Vikram Rao,MUMBAI,03/29/2025,Books,888.43,7.0
+Priya Nair,DELHI ,16/02/2025,Sports,1850.34,1.0
+Meera Joshi,mumbai,2025-04-30,Electronics,1960.97,5.0
+Vikram Rao,New Delhi,19/11/2025,Apparel,1402.82,4.0
+Rohan Gupta, Hyderabad,2025-05-31,Home & Kitchen,"₹1,372.81",2.0
+Vikram Rao,bengaluru ,2025-03-17,Books,1301.92,4.0
+Divya Pillai,bengaluru,07/07/2025,Books,"₹1,625.82",8.0
+Sneha Iyer,bengaluru,2025-02-17,Apparel,N/A,4.0
+Priya Nair,bengaluru,15/11/2025,Home & Kitchen,2112.36,5.0
+Priya Nair,bengaluru,01/07/2025,Home & Kitchen,775.0,4.0
+Vikram Rao,Bangalore ,01/03/2025,Apparel,1560.68,5.0
+Vikram Rao,Bangalore ,02-Jan-2026,Home & Kitchen,840.12,8.0
+Karthik Menon, BENGALURU,2025-12-05,Apparel,786.63,7.0
+Vikram Rao,Delhi ,2026-01-27,Books,"1,531.06",9.0
+Priya Nair,Delhi ,28-Jun-2025,Electronics,N/A,-2.0
+Divya Pillai, Chennai,20/05/2025,Home & Kitchen,1358.48,3.0
+Meera Joshi, Mumbai,28-Nov-2025,Home & Kitchen,"₹2,345.03",6.0
+Meera Joshi,hyderabad,2026-01-27,Electronics,975.38,8.0
+Aarav Shah,Mumbai ,2025-08-28,Electronics,2097.33,7.0
+Priya Nair,MUMBAI,2025-08-28,Home & Kitchen,"₹1,718.95",6.0
+Meera Joshi, BENGALURU,11/12/2025,Books,1263.85,7.0
+Sneha Iyer,HYDERABAD ,12/03/2025,Apparel,1311.72,5.0
+Meera Joshi, Hyderabad,2025-03-22,Electronics,1418.95,9.0
+Vikram Rao,Delhi ,06-Mar-2025,Sports,1227.68,4.0
+Priya Nair,DELHI ,03/07/2025,Books,"₹1,410.56",9.0
+Divya Pillai,New Delhi,15-Apr-2025,Electronics,"1,616.58",8.0
+Meera Joshi,Bangalore ,21/03/2025,Sports,2209.9,8.0
+Vikram Rao, Hyderabad,01/01/2025,Home & Kitchen,1454.45,8.0
+Karthik Menon,Mumbai ,2025-12-01,Apparel,"1,390.77",4.0
+Sneha Iyer,Bangalore ,26-Apr-2025,Electronics,"1,405.89",2.0
+Meera Joshi,MUMBAI,2025-07-23,Electronics,"1,742.99",3.0
+Arjun Reddy, Chennai,28-Jan-2026,Sports,1272.69,7.0
+Sneha Iyer,bengaluru,2025-09-13,Electronics,"₹1,084.83",2.0
+Vikram Rao, BENGALURU,02/11/2025,Apparel,1853.32,-6.0
+Karthik Menon, Hyderabad,11/19/2025,Books,569.33,4.0
+Aarav Shah, Chennai,11/16/2025,Sports,"₹1,453.66",8.0
+Rohan Gupta, BENGALURU,2025-03-23,Apparel,2206.57,9.0
+Arjun Reddy, Chennai,28-Jan-2026,Sports,1272.69,7.0
+Meera Joshi,New Delhi,06/14/2025,Home & Kitchen,"₹1,597.31",8.0
+Vikram Rao,bengaluru ,13/02/2025,Electronics,1273.25,8.0
+Rohan Gupta,New Delhi,01/24/2026,Books,"1,857.40",5.0
+Karthik Menon,DELHI ,16/08/2025,Apparel,"₹1,213.89",2.0
+Karthik Menon,bengaluru,14/07/2025,Books,1541.86,8.0
+Aarav Shah, Mumbai,30-Jan-2026,Apparel,1129.85,9.0
+Ananya Das,DELHI ,26/05/2025,Home & Kitchen,1915.08,2.0
+Meera Joshi,bengaluru,13-Dec-2025,Sports,N/A,6.0
+Arjun Reddy,DELHI ,23/02/2025,Books,"₹2,126.98",4.0
+Priya Nair,hyderabad,08/30/2025,Electronics,,4.0
+Priya Nair,mumbai,05/12/2025,Sports,,9.0
+Aarav Shah,New Delhi,17-Nov-2025,Books,"1,226.28",7.0
+Karthik Menon, Mumbai,31/10/2025,Home & Kitchen,1764.96,3.0
+Arjun Reddy,bengaluru,13/03/2025,Sports,"₹1,743.94",5.0
+Rohan Gupta,HYDERABAD ,14-Apr-2025,Home & Kitchen,1330.09,5.0
+Ananya Das,MUMBAI,22-May-2025,Sports,1915.46,8.0
+Karthik Menon,bengaluru,02/03/2025,Books,654.62,1.0
+Karthik Menon,CHENNAI,2025-01-04,Home & Kitchen,1849.44,1.0
+Rohan Gupta,chennai,20-Jun-2025,Sports,"₹1,734.40",5.0
+Arjun Reddy,Mumbai ,01/16/2026,Home & Kitchen,1934.28,4.0
+Karthik Menon,delhi,10-Nov-2025,Apparel,"1,162.02",6.0
+Meera Joshi,mumbai,05/06/2025,Electronics,"₹1,778.21",8.0
+Arjun Reddy,MUMBAI,23-Oct-2025,Apparel,1290.55,7.0
+Arjun Reddy,chennai ,19/07/2025,Sports,1522.13,5.0
+Vikram Rao,New Delhi,02/27/2025,Electronics,,8.0
+Sneha Iyer,MUMBAI,2025-12-22,Apparel,"₹1,117.22",-4.0
+Divya Pillai, BENGALURU,23-Mar-2025,Books,1251.39,1.0
+Sneha Iyer,CHENNAI,04/12/2025,Electronics,2251.72,7.0
+Divya Pillai,hyderabad,30-Dec-2025,Electronics,"1,296.33",4.0
+Divya Pillai,delhi,13/05/2025,Apparel,"₹2,167.82",9.0
+Karthik Menon,chennai,22-Mar-2025,Books,3365.78,3.0
+Ananya Das,Delhi ,03/04/2025,Apparel,"₹1,524.97",5.0
+Ananya Das,CHENNAI,03/21/2025,Apparel,,6.0
+Sneha Iyer,Mumbai ,05-Mar-2025,Electronics,1789.05,3.0
+Arjun Reddy, Chennai,2025-11-14,Home & Kitchen,2463.93,8.0
+Divya Pillai,MUMBAI,23/11/2025,Electronics,"₹1,302.78",5.0
+Meera Joshi,chennai,2025-01-12,Books,1638.89,8.0
+Arjun Reddy,DELHI ,16-Feb-2025,Electronics,,6.0
+Sneha Iyer,Delhi ,17-Aug-2025,Electronics,2093.98,8.0
+Karthik Menon, Chennai,2025-07-30,Electronics,2421.94,4.0
+Priya Nair, Hyderabad,02/10/2025,Home & Kitchen,870.76,-5.0
+Sneha Iyer,bengaluru ,10-Feb-2025,Electronics,"2,388.33",7.0
+Vikram Rao,delhi,09/24/2025,Electronics,1999.79,1.0
+Rohan Gupta,Delhi ,2025-04-27,Sports,N/A,5.0
+Sneha Iyer,delhi,24/03/2025,Electronics,"1,621.20",3.0
+Arjun Reddy,chennai,25-Oct-2025,Sports,"₹1,089.44",8.0
+Meera Joshi,hyderabad,25-Jan-2026,Apparel,₹919.20,2.0
+Karthik Menon,Mumbai ,10/03/2025,Home & Kitchen,"₹1,907.42",4.0
+Arjun Reddy,chennai ,03/21/2025,Sports,"1,641.51",6.0
+Aarav Shah, Mumbai,2025-03-08,Electronics,1610.56,7.0
+Arjun Reddy, Mumbai,07/02/2025,Books,1444.25,-8.0
+Rohan Gupta,CHENNAI,2025-08-29,Apparel,N/A,5.0
+Rohan Gupta, Chennai,12-Oct-2025,Electronics,₹927.98,7.0
+Ananya Das,HYDERABAD ,22/10/2025,Sports,1567.08,5.0
+Vikram Rao,bengaluru ,16-Jan-2025,Sports,"1,696.69",9.0
+Rohan Gupta,hyderabad,2025-09-14,Apparel,1626.08,8.0
+Aarav Shah,DELHI ,2025-12-31,Sports,1230.59,1.0
+Arjun Reddy,DELHI ,22/10/2025,Home & Kitchen,1028.37,9.0
+Priya Nair, Chennai,05/18/2025,Electronics,460.49,2.0
+Divya Pillai,MUMBAI,09-Jan-2026,Electronics,"₹1,830.30",1.0
+Sneha Iyer, Hyderabad,03/06/2025,Home & Kitchen,1472.86,3.0
+Vikram Rao,bengaluru ,2025-11-08,Apparel,1573.34,6.0
+Divya Pillai,Delhi ,01/14/2026,Electronics,1091.62,9.0
+Divya Pillai,DELHI ,2025-02-22,Books,"₹1,705.21",9.0
+Vikram Rao,Bangalore ,03/07/2025,Sports,628.48,9.0
+Ananya Das,bengaluru ,31-Jul-2025,Sports,678.70,7.0
+Divya Pillai,Delhi ,03/08/2025,Books,"1,816.68",3.0
+Ananya Das,hyderabad,2025-12-31,Books,,9.0
+Arjun Reddy,chennai,23-Jan-2026,Home & Kitchen,954.78,8.0
+Sneha Iyer,CHENNAI,24/01/2026,Electronics,N/A,3.0
+Rohan Gupta,bengaluru ,2025-12-16,Home & Kitchen,761.58,9.0
+Sneha Iyer,bengaluru,27/08/2025,Sports,789.45,2.0
+Ananya Das,delhi,2025-12-06,Home & Kitchen,"₹1,394.51",2.0
+Priya Nair,chennai,01/22/2025,Home & Kitchen,61.4,-9.0
+Divya Pillai,chennai ,29/04/2025,Electronics,"1,879.60",4.0
+Priya Nair,chennai,03-Feb-2026,Sports,,7.0
+Meera Joshi,delhi,14/07/2025,Books,"₹1,683.17",8.0
+Sneha Iyer,Bangalore ,02/10/2025,Electronics,2095.67,4.0
+Ananya Das,DELHI ,2025-03-01,Electronics,1562.96,9.0
+Meera Joshi,hyderabad,07/09/2025,Sports,1892.42,-5.0
+Vikram Rao,Mumbai ,29-Jan-2026,Electronics,"₹1,951.18",8.0
+Priya Nair,chennai ,24-Dec-2025,Apparel,1710.46,6.0
+Sneha Iyer, Chennai,28-Apr-2025,Sports,N/A,-1.0
+Rohan Gupta,DELHI ,2025-01-29,Books,1181.98,7.0
+Ananya Das,Bangalore ,21-Feb-2025,Electronics,"₹1,037.61",8.0
+Ananya Das,Bangalore ,01/13/2025,Apparel,"₹1,379.38",2.0
+Sneha Iyer,Mumbai ,30/08/2025,Home & Kitchen,N/A,2.0
+Aarav Shah, Hyderabad,2025-08-10,Home & Kitchen,2162.64,
+Priya Nair,mumbai,11-Apr-2025,Electronics,,3.0
+Karthik Menon,Bangalore ,24/11/2025,Sports,"₹1,376.94",6.0
+Arjun Reddy,chennai,2026-02-04,Sports,,2.0
+Priya Nair,MUMBAI,12/02/2025,Electronics,1512.56,7.0
